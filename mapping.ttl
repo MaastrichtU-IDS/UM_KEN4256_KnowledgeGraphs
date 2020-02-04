@@ -1,0 +1,66 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix gn: <http://geonames.org/> .
+@prefix wb: <http://worldbank.org/> .
+@base <http://geonames.org/> .
+
+
+<TriplesMapGeonames>
+  a rr:TriplesMap;
+
+  # Define the data source (file location)
+  rml:logicalSource [
+    rml:source "dataset-geonames-countryInfo.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+
+  # Define the subject of the generated statements
+  rr:subjectMap [ rr:template "http://geonames.org/country/{ISO}" ;
+    rr:class gn:Country ];
+
+  # Map the country name to rdfs:label
+  rr:predicateObjectMap [ 
+    rr:predicate rdfs:label ;
+    rr:objectMap [ rml:reference "Country" ]
+  ] ;
+
+  # Define the object of the population property as an integer
+  rr:predicateObjectMap [ 
+    rr:predicate gn:population ;
+    rr:objectMap [ rml:reference "Population" ; rr:datatype xsd:integer ]
+  ] ;
+
+  # Generate a URI for the continent object
+  rr:predicateObjectMap [ 
+    rr:predicate gn:continent ;
+    rr:objectMap [ rr:template "http://geonames.org/continent/{Continent}" ]
+  ] .
+
+
+# Generates GDP entries yearly for each country from WorldBank data
+<TriplesMapGdpEntries> 
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source "dataset-worldbank-gdp-full.xml";
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "/Root/data/record"
+  ];
+
+  # Generate a URI for each GDP yearly entry, for each country
+  rr:subjectMap [ rr:template "http://worldbank.org/country/{country/@key}/gdp/{year}" ;
+    rr:class wb:GdpEntry ];
+
+  # Add the country label to the GDP entry
+  rr:predicateObjectMap [ 
+    rr:predicate wb:country_label ;
+    rr:objectMap [ rr:template "http://worldbank.org/country/{country}" ]
+  ] 
+ .

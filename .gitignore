@@ -1,0 +1,8 @@
+.DS_Store
+rmlmapper.jar
+limes-*.jar
+output*.nt
+limes_*.nt
+cache/
+.server-storage
+*statistics.json
