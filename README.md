@@ -25,7 +25,7 @@ You can also [download it as a .zip file](https://github.com/MaastrichtU-IDS/UM_
 
 # Execute RML mapping files
 
-You can test if you have Java installed by opening the the terminal (or PowerShell on Windows) and typing:
+You can test if you have Java installed by opening the the `terminal` (or `PowerShell` on Windows) and typing:
 
 ```bash
 java -version
@@ -39,7 +39,7 @@ Download RML processor [rmlmapper.jar](https://github.com/RMLio/rmlmapper-java/r
 java -jar rmlmapper.jar -m "mapping.ttl" -o "output.nt" --duplicates 
 ```
 
-* This command should be executed in the directory where the RDF files are located (this repository).
+* This command **should be executed in the directory** where the `rmlmapper.jar` file and RDF files are located (this repository).
 * `--duplicates` allow to remove duplicates triples from the output file.
 * The example [mapping.ttl file](https://github.com/MaastrichtU-IDS/UM_KEN4256_KnowledgeGraphs/blob/master/mapping.ttl) is available to help you start converting the first columns.
 
