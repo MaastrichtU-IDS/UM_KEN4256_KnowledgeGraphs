@@ -35,7 +35,7 @@ java -version
 
 Download RML processor [rmlmapper.jar](https://github.com/RMLio/rmlmapper-java/releases/download/v4.3.1/rmlmapper.jar) and put it in the `UM_KEN4256_KnowledgeGraphs` folder to execute the example mapping file:
 
-```shell
+```bash
 java -jar rmlmapper.jar -m "mapping.ttl" -o "output.nt" --duplicates 
 ```
 
