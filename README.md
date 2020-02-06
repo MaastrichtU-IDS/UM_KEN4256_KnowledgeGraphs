@@ -84,42 +84,6 @@ See the [official LIMES documentation](http://dice-group.github.io/LIMES/#/user_
 
 Or try out the LIMES Web UI: http://limes.aksw.org/ 
 
-# Explore a graph using SPARQL
-
-Be aware that the count operations can be really time consuming (depending on the dataset size), so you might want to remove it if the query is timing out.
-
-### Count all classes in the graph
-
-```sql
-select ?Concept (count(?Concept) as ?Count) # Count the number of ?Concept in the "group by"
-where {?s a ?Concept} # We take all the URIs that are types of other URIs
-group by ?Concept # Uniq concepts
-order by desc(?Count) # Order from the most used class to the less
-```
-
-### Get all properties for a Class
-
-```sql
-select ?Predicate (count(?Predicate) as ?Count) 
-where {
-	?s a <http://geonames.org/Country> .
-	?s ?Predicate ?o .
-} 
-group by ?Predicate
-order by desc(?Count)
-```
-
-### Get all instances of a Class
-
-```sql
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-select ?instance ?label
-where {
-    ?instance a <http://geonames.org/Country> .
-    OPTIONAL { ?instance rdfs:label ?label . } # Display the label if one
-}
-```
-
 ## Using other tools (optional)
 
 Conversion can be done using various other tools and methods. You are encouraged to use different tools than RML mapper and LIMES if they fit the task. Here are some examples of other tools to convert structured data to RDF, they usually needs a bit more proficiency with programming and deploying services on your machine than RML, but are more scalable and can process gigabytes of data.
@@ -158,3 +122,39 @@ Developed from [OpenRefine](https://openrefine.org/), [OntoRefine](http://graphd
 ### Python scripts
 
 A common way to process data is still to pick your favorite scripting language and use it to process the data. It usually offers more possibilities and libraries can be helpful, but the mappings are not expressed clearly in a mapping language, making them harder to read, share and reuse.
+
+# Explore a graph using SPARQL
+
+Be aware that the count operations can be really time consuming (depending on the dataset size), so you might want to remove it if the query is timing out.
+
+### Count all classes in the graph
+
+```sql
+select ?Concept (count(?Concept) as ?Count) # Count the number of ?Concept in the "group by"
+where {?s a ?Concept} # We take all the URIs that are types of other URIs
+group by ?Concept # Uniq concepts
+order by desc(?Count) # Order from the most used class to the less
+```
+
+### Get all properties for a Class
+
+```sql
+select ?Predicate (count(?Predicate) as ?Count) 
+where {
+	?s a <http://geonames.org/Country> .
+	?s ?Predicate ?o .
+} 
+group by ?Predicate
+order by desc(?Count)
+```
+
+### Get all instances of a Class
+
+```sql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select ?instance ?label
+where {
+    ?instance a <http://geonames.org/Country> .
+    OPTIONAL { ?instance rdfs:label ?label . } # Display the label if one
+}
+```
