@@ -49,7 +49,7 @@
   a rr:TriplesMap;
 
   rml:logicalSource [
-    rml:source "dataset-worldbank-gdp-full.xml";
+    rml:source "dataset-worldbank-gdp.xml";
     rml:referenceFormulation ql:XPath ;
     rml:iterator "/Root/data/record"
   ];
