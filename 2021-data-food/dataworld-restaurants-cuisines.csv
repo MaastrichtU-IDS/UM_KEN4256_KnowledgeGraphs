@@ -1,0 +1,272 @@
+cuisines,uses pork,mostly vegetarian,spicy,use lactose,id,diets
+Afghani,yes,yes,no,yes,afghani,vegetarian
+African,no,yes,yes,yes,african,halal|vegetarian|hindu
+"African, Portuguese",yes,yes,yes,no,african_portuguese,vegetarian|hindu|low_lactose_diet
+american,no,no,no,yes,american,halal
+Andhra,no,yes,yes,yes,andhra,halal|vegetarian|hindu
+Arabian,yes,yes,no,no,arabian,vegetarian|low_lactose_diet
+"Arabian, Lebanese",no,no,no,yes,arabian_lebanese,halal
+"Arabian, Mexican",yes,yes,no,yes,arabian_mexican,vegetarian
+"Arabian, Middle Eastern",yes,no,yes,yes,arabian_middle_eastern,hindu
+Asian,yes,yes,yes,yes,asian,vegetarian|hindu
+Assamese,yes,no,no,yes,assamese,
+Australian,no,yes,yes,yes,australian,halal|vegetarian|hindu
+Awadhi,yes,yes,yes,no,awadhi,vegetarian|hindu|low_lactose_diet
+"Awadhi, Mughlai",no,yes,no,no,awadhi_mughlai,halal|vegetarian|low_lactose_diet
+bakery,yes,no,no,no,bakery,low_lactose_diet
+Bar Food,yes,no,yes,yes,bar_food,hindu
+"Bar Food, Brazilian",yes,no,no,yes,bar_food_brazilian,
+"Bar Food, Modern Australian",yes,no,no,no,bar_food_modern_australian,low_lactose_diet
+"Bar Food, Sandwich, Seafood",no,no,yes,yes,bar_food_sandwich_seafood,halal|hindu
+"Bar Food, Seafood, Vegetarian",no,yes,no,yes,bar_food_seafood_vegetarian,halal|vegetarian
+"Bar Food, Steak",yes,yes,yes,yes,bar_food_steak,vegetarian|hindu
+BBQ,yes,yes,yes,yes,bbq,vegetarian|hindu
+"BBQ, Breakfast, Southern",yes,no,yes,yes,bbq_breakfast_southern,hindu
+"BBQ, Caribbean, Cajun",yes,no,yes,yes,bbq_caribbean_cajun,hindu
+"BBQ, Caribbean, Seafood",no,yes,yes,yes,bbq_caribbean_seafood,halal|vegetarian|hindu
+"BBQ, Grill, Brazilian",no,yes,yes,no,bbq_grill_brazilian,halal|vegetarian|hindu|low_lactose_diet
+"BBQ, Sandwich",no,yes,yes,yes,bbq_sandwich,halal|vegetarian|hindu
+"BBQ, Southern",yes,yes,yes,no,bbq_southern,vegetarian|hindu|low_lactose_diet
+Bengali,no,yes,yes,yes,bengali,halal|vegetarian|hindu
+"Bengali, Seafood",no,yes,no,yes,bengali_seafood,halal|vegetarian
+Beverages,yes,no,yes,yes,beverages,hindu
+Bihari,yes,yes,no,yes,bihari,vegetarian
+Biryani,no,no,yes,yes,biryani,halal|hindu
+Brazilian,yes,no,yes,yes,brazilian,hindu
+"Brazilian, Bar Food",no,no,no,yes,brazilian_bar_food,halal
+"Brazilian, Grill",yes,yes,no,yes,brazilian_grill,vegetarian
+"Brazilian, Mineira",no,yes,yes,no,brazilian_mineira,halal|vegetarian|hindu|low_lactose_diet
+"Brazilian, North Eastern",yes,yes,no,no,brazilian_north_eastern,vegetarian|low_lactose_diet
+"Brazilian, Seafood",no,yes,yes,no,brazilian_seafood,halal|vegetarian|hindu|low_lactose_diet
+"Brazilian, Steak",yes,no,yes,no,brazilian_steak,hindu|low_lactose_diet
+Breakfast,yes,no,yes,no,breakfast,hindu|low_lactose_diet
+"Breakfast, Cajun",yes,no,yes,no,breakfast_cajun,hindu|low_lactose_diet
+"Breakfast, Coffee and Tea",yes,yes,yes,no,breakfast_coffee_and_tea,vegetarian|hindu|low_lactose_diet
+"Breakfast, Coffee and Tea, Modern Australian",no,no,yes,yes,breakfast_coffee_and_tea_modern_australian,halal|hindu
+"Breakfast, Diner",yes,no,yes,yes,breakfast_diner,hindu
+"Breakfast, Diner, Sandwich",yes,yes,no,yes,breakfast_diner_sandwich,vegetarian
+"Breakfast, Diner, Southern",no,no,yes,no,breakfast_diner_southern,halal|hindu|low_lactose_diet
+"Breakfast, French",yes,yes,no,yes,breakfast_french,vegetarian
+"Breakfast, Mexican",yes,yes,yes,yes,breakfast_mexican,vegetarian|hindu
+"Breakfast, Mexican, Southwestern",no,yes,no,yes,breakfast_mexican_southwestern,halal|vegetarian
+"Breakfast, Modern Australian",no,no,yes,no,breakfast_modern_australian,halal|hindu|low_lactose_diet
+"Breakfast, Pizza",yes,yes,no,no,breakfast_pizza,vegetarian|low_lactose_diet
+"Breakfast, Sandwich",yes,no,no,no,breakfast_sandwich,low_lactose_diet
+"Breakfast, Spanish, Tapas",no,yes,no,yes,breakfast_spanish_tapas,halal|vegetarian
+"Breakfast, Vegetarian",yes,no,yes,yes,breakfast_vegetarian,hindu
+British,no,yes,no,no,british,halal|vegetarian|low_lactose_diet
+"British, Bar Food, Sandwich",no,yes,yes,yes,british_bar_food_sandwich,halal|vegetarian|hindu
+"British, Contemporary",no,yes,no,yes,british_contemporary,halal|vegetarian
+"British, French",no,yes,yes,yes,british_french,halal|vegetarian|hindu
+"British, Scottish, Seafood",yes,yes,yes,no,british_scottish_seafood,vegetarian|hindu|low_lactose_diet
+"British, Steak",no,yes,yes,yes,british_steak,halal|vegetarian|hindu
+Burger,no,no,no,yes,burger,halal
+Cafe,yes,yes,no,no,cafe,vegetarian|low_lactose_diet
+Cajun,no,no,yes,no,cajun,halal|hindu|low_lactose_diet
+Caribbean,no,no,no,yes,caribbean,halal
+"Caribbean, Mexican, Cajun",no,yes,no,yes,caribbean_mexican_cajun,halal|vegetarian
+"Caribbean, Seafood",no,yes,yes,yes,caribbean_seafood,halal|vegetarian|hindu
+"Caribbean, Seafood, Steak",no,yes,yes,yes,caribbean_seafood_steak,halal|vegetarian|hindu
+Chinese,yes,yes,no,no,chinese,vegetarian|low_lactose_diet
+"Coffee and Tea, Mediterranean",yes,no,no,no,coffee_and_tea_mediterranean,low_lactose_diet
+"Coffee and Tea, Modern Australian",no,yes,yes,yes,coffee_and_tea_modern_australian,halal|vegetarian|hindu
+"Coffee and Tea, Sandwich",yes,no,no,yes,coffee_and_tea_sandwich,
+"Coffee and Tea, Tapas, Australian",yes,no,no,no,coffee_and_tea_tapas_australian,low_lactose_diet
+"Coffee and Tea, Tea, Modern Australian",yes,no,no,no,coffee_and_tea_tea_modern_australian,low_lactose_diet
+Contemporary,no,yes,yes,yes,contemporary,halal|vegetarian|hindu
+Continental,yes,no,yes,yes,continental,hindu
+"Continental, European",yes,no,yes,yes,continental_european,hindu
+"Continental, Kerala",no,yes,yes,yes,continental_kerala,halal|vegetarian|hindu
+"Continental, Lebanese, Mexican",no,yes,no,no,continental_lebanese_mexican,halal|vegetarian|low_lactose_diet
+"Continental, Mexican",yes,yes,yes,no,continental_mexican,vegetarian|hindu|low_lactose_diet
+"Continental, Mexican, Mediterranean",yes,no,yes,yes,continental_mexican_mediterranean,hindu
+"Continental, Seafood, Goan, Andhra, Kerala, Thai",no,yes,yes,no,continental_seafood_goan_andhra_kerala_thai,halal|vegetarian|hindu|low_lactose_diet
+"Continental, Tex-Mex",no,no,no,yes,continental_tex-mex,halal
+"Cuban, Spanish",yes,no,yes,no,cuban_spanish,hindu|low_lactose_diet
+Cuisine Varies,yes,no,yes,no,cuisine_varies,hindu|low_lactose_diet
+Desserts,no,yes,yes,yes,desserts,halal|vegetarian|hindu
+Drinks Only,yes,yes,yes,yes,drinks_only,vegetarian|hindu
+European,yes,no,no,yes,european,
+"European, Contemporary",yes,no,yes,no,european_contemporary,hindu|low_lactose_diet
+"European, Continental",no,no,yes,yes,european_continental,halal|hindu
+"European, Continental, Pizza",yes,no,yes,no,european_continental_pizza,hindu|low_lactose_diet
+"European, German",yes,yes,no,yes,european_german,vegetarian
+"European, International, Tapas",yes,yes,no,no,european_international_tapas,vegetarian|low_lactose_diet
+"European, Lebanese, Mediterranean",no,yes,no,no,european_lebanese_mediterranean,halal|vegetarian|low_lactose_diet
+"European, Mediterranean, Contemporary",yes,no,yes,yes,european_mediterranean_contemporary,hindu
+"European, Pizza",no,yes,yes,no,european_pizza,halal|vegetarian|hindu|low_lactose_diet
+"European, South African",yes,yes,no,no,european_south_african,vegetarian|low_lactose_diet
+"European, South African, Steak",no,yes,no,yes,european_south_african_steak,halal|vegetarian
+"European, Spanish",no,no,no,yes,european_spanish,halal
+FAST FOOD,yes,yes,no,yes,fast_food,vegetarian
+Filipino,yes,no,yes,yes,filipino,hindu
+"Filipino, Mexican",yes,no,yes,yes,filipino_mexican,hindu
+Finger Food,no,yes,yes,yes,finger_food,halal|vegetarian|hindu
+French,yes,no,no,no,french,low_lactose_diet
+"French, Kiwi",yes,yes,yes,no,french_kiwi,vegetarian|hindu|low_lactose_diet
+"French, Mediterranean, European",yes,yes,yes,no,french_mediterranean_european,vegetarian|hindu|low_lactose_diet
+"French, Western",no,no,yes,no,french_western,halal|hindu|low_lactose_diet
+German,no,no,yes,no,german,halal|hindu|low_lactose_diet
+"German, Ice Cream",no,yes,yes,no,german_ice_cream,halal|vegetarian|hindu|low_lactose_diet
+Goan,yes,yes,no,yes,goan,vegetarian
+"Goan, Mangalorean, Continental, French",no,yes,no,no,goan_mangalorean_continental_french,halal|vegetarian|low_lactose_diet
+"Goan, Seafood",yes,no,no,yes,goan_seafood,
+Greek,yes,yes,no,yes,greek,vegetarian
+"Greek, Lebanese",yes,yes,no,no,greek_lebanese,vegetarian|low_lactose_diet
+"Greek, Mediterranean",yes,yes,no,no,greek_mediterranean,vegetarian|low_lactose_diet
+"Greek, Mediterranean, Middle Eastern",no,yes,no,yes,greek_mediterranean_middle_eastern,halal|vegetarian
+"Greek, Mediterranean, Vegetarian",yes,no,yes,no,greek_mediterranean_vegetarian,hindu|low_lactose_diet
+Gujarati,yes,no,yes,no,gujarati,hindu|low_lactose_diet
+"Gujarati, Rajasthani",yes,no,yes,yes,gujarati_rajasthani,hindu
+Hawaiian,no,yes,yes,yes,hawaiian,halal|vegetarian|hindu
+"Hawaiian, Seafood",yes,yes,no,no,hawaiian_seafood,vegetarian|low_lactose_diet
+"Hawaiian, Seafood, Steak",no,no,yes,yes,hawaiian_seafood_steak,halal|hindu
+Healthy Food,no,yes,yes,yes,healthy_food,halal|vegetarian|hindu
+Hyderabadi,no,yes,no,yes,hyderabadi,halal|vegetarian
+"Hyderabadi, Awadhi",no,no,no,no,hyderabadi_awadhi,halal|low_lactose_diet
+Ice Cream,no,yes,yes,no,ice_cream,halal|vegetarian|hindu|low_lactose_diet
+indian,no,no,no,no,indian,halal|low_lactose_diet
+Indonesian,yes,yes,yes,no,indonesian,vegetarian|hindu|low_lactose_diet
+International,yes,yes,no,yes,international,vegetarian
+"International, Mediterranean, Sandwich",yes,no,yes,yes,international_mediterranean_sandwich,hindu
+"International, Pizza",no,no,no,yes,international_pizza,halal
+"International, Southern",yes,no,no,yes,international_southern,
+"International, Southern, Vegetarian",yes,yes,no,yes,international_southern_vegetarian,vegetarian
+"International, Tapas, Vegetarian",no,no,no,yes,international_tapas_vegetarian,halal
+Irish,no,yes,yes,yes,irish,halal|vegetarian|hindu
+italian,yes,yes,yes,yes,italian,vegetarian|hindu
+Japanese,no,yes,yes,no,japanese,halal|vegetarian|hindu|low_lactose_diet
+"Japanese, French",no,no,yes,yes,japanese_french,halal|hindu
+"Japanese, Korean",yes,yes,no,no,japanese_korean,vegetarian|low_lactose_diet
+"Japanese, Seafood, Sushi",yes,yes,no,yes,japanese_seafood_sushi,vegetarian
+"Japanese, Steak",no,yes,no,no,japanese_steak,halal|vegetarian|low_lactose_diet
+"Japanese, Steak, Sushi",no,yes,yes,yes,japanese_steak_sushi,halal|vegetarian|hindu
+"Japanese, Sushi",yes,no,yes,no,japanese_sushi,hindu|low_lactose_diet
+"Japanese, Sushi, Ramen",yes,yes,yes,no,japanese_sushi_ramen,vegetarian|hindu|low_lactose_diet
+"Japanese, Sushi, Teriyaki",yes,no,yes,no,japanese_sushi_teriyaki,hindu|low_lactose_diet
+"Japanese, Sushi, Thai",yes,no,no,yes,japanese_sushi_thai,
+"Japanese, Thai, Sushi",no,no,no,yes,japanese_thai_sushi,halal
+"Japanese, Tibetan, Vietnamese, Korean",yes,yes,yes,yes,japanese_tibetan_vietnamese_korean,vegetarian|hindu
+Juices,yes,no,yes,no,juices,hindu|low_lactose_diet
+Kashmiri,no,no,no,no,kashmiri,halal|low_lactose_diet
+"Kashmiri, Mughlai",yes,no,yes,yes,kashmiri_mughlai,hindu
+Kebab,yes,yes,no,no,kebab,vegetarian|low_lactose_diet
+"Kebab, Izgara",no,yes,no,yes,kebab_izgara,halal|vegetarian
+"Kebab, Turkish Pizza",yes,yes,yes,yes,kebab_turkish_pizza,vegetarian|hindu
+"Kebab, Turkish Pizza, Dí_ner",no,yes,yes,no,kebab_turkish_pizza_dí_ner,halal|vegetarian|hindu|low_lactose_diet
+Kerala,yes,no,yes,yes,kerala,hindu
+"Kiwi, European",no,no,yes,yes,kiwi_european,halal|hindu
+Korean,no,no,yes,no,korean,halal|hindu|low_lactose_diet
+Lebanese,yes,no,yes,yes,lebanese,hindu
+"Lebanese, Arabian",yes,yes,yes,yes,lebanese_arabian,vegetarian|hindu
+"Lebanese, Arabian, Middle Eastern",no,no,yes,yes,lebanese_arabian_middle_eastern,halal|hindu
+"Lebanese, Arabian, Moroccan",no,yes,no,no,lebanese_arabian_moroccan,halal|vegetarian|low_lactose_diet
+"Lebanese, Mediterranean, Arabian",yes,yes,yes,yes,lebanese_mediterranean_arabian,vegetarian|hindu
+"Lebanese, Mediterranean, Middle Eastern, Arabian",no,yes,yes,no,lebanese_mediterranean_middle_eastern_arabian,halal|vegetarian|hindu|low_lactose_diet
+Lucknowi,yes,no,yes,no,lucknowi,hindu|low_lactose_diet
+"Lucknowi, Mughlai",yes,yes,yes,no,lucknowi_mughlai,vegetarian|hindu|low_lactose_diet
+Maharashtrian,yes,no,yes,yes,maharashtrian,hindu
+Malaysian,yes,no,no,no,malaysian,low_lactose_diet
+"Malaysian, Indonesian",no,no,no,yes,malaysian_indonesian,halal
+"Malaysian, Thai",yes,no,yes,yes,malaysian_thai,hindu
+"Malaysian, Thai, Kerala, Vietnamese, Sri Lankan",yes,yes,no,no,malaysian_thai_kerala_vietnamese_sri_lankan,vegetarian|low_lactose_diet
+Mediterranean,yes,no,yes,yes,mediterranean,hindu
+"Mediterranean, Continental",no,yes,no,yes,mediterranean_continental,halal|vegetarian
+"Mediterranean, European",yes,no,no,no,mediterranean_european,low_lactose_diet
+"Mediterranean, Seafood",yes,yes,yes,no,mediterranean_seafood,vegetarian|hindu|low_lactose_diet
+"Mediterranean, Tapas, Vegetarian",yes,no,no,yes,mediterranean_tapas_vegetarian,
+"Mediterranean, Turkish",no,yes,no,yes,mediterranean_turkish,halal|vegetarian
+Mexican,yes,no,no,no,mexican,low_lactose_diet
+"Mexican, Grill",yes,yes,yes,yes,mexican_grill,vegetarian|hindu
+"Mexican, Southwestern, Sushi",yes,yes,yes,yes,mexican_southwestern_sushi,vegetarian|hindu
+"Mexican, Southwestern, Tex-Mex",no,yes,yes,no,mexican_southwestern_tex-mex,halal|vegetarian|hindu|low_lactose_diet
+"Mexican, Spanish",yes,no,yes,yes,mexican_spanish,hindu
+"Mexican, Tex-Mex",yes,yes,no,yes,mexican_tex-mex,vegetarian
+"Mexican, Vegetarian",yes,yes,yes,yes,mexican_vegetarian,vegetarian|hindu
+"Middle Eastern, Arabian",no,no,yes,yes,middle_eastern_arabian,halal|hindu
+Mithai,yes,yes,no,yes,mithai,vegetarian
+Modern Australian,yes,no,yes,yes,modern_australian,hindu
+"Modern Australian, Australian",yes,yes,no,yes,modern_australian_australian,vegetarian
+Mughlai,yes,yes,yes,no,mughlai,vegetarian|hindu|low_lactose_diet
+"Mughlai, Afghani",no,yes,yes,no,mughlai_afghani,halal|vegetarian|hindu|low_lactose_diet
+"Mughlai, Hyderabadi",yes,yes,yes,no,mughlai_hyderabadi,vegetarian|hindu|low_lactose_diet
+"Mughlai, Lucknowi",yes,no,no,no,mughlai_lucknowi,low_lactose_diet
+"Mughlai, Lucknowi, Awadhi",no,yes,yes,yes,mughlai_lucknowi_awadhi,halal|vegetarian|hindu
+Naga,yes,yes,no,yes,naga,vegetarian
+"Naga, Tibetan",no,no,no,yes,naga_tibetan,halal
+Nepalese,yes,no,no,yes,nepalese,
+"Nepalese, Tibetan",yes,yes,yes,yes,nepalese_tibetan,vegetarian|hindu
+North Eastern,yes,no,yes,no,north_eastern,hindu|low_lactose_diet
+Oriya,no,no,no,no,oriya,halal|low_lactose_diet
+Pakistani,yes,no,yes,yes,pakistani,hindu
+Parsi,yes,no,yes,yes,parsi,hindu
+"Parsi, Iranian",yes,yes,yes,yes,parsi_iranian,vegetarian|hindu
+"Patisserie, Coffee and Tea",yes,yes,no,yes,patisserie_coffee_and_tea,vegetarian
+"Peranakan, Indonesian",no,yes,yes,no,peranakan_indonesian,halal|vegetarian|hindu|low_lactose_diet
+Pizza,yes,yes,yes,yes,pizza,vegetarian|hindu
+"Pizza, Bar Food",yes,yes,no,yes,pizza_bar_food,vegetarian
+"Pizza, Bar Food, Sandwich",yes,yes,yes,yes,pizza_bar_food_sandwich,vegetarian|hindu
+"Pizza, Grill",yes,yes,yes,yes,pizza_grill,vegetarian|hindu
+"Pizza, Ice Cream",yes,yes,yes,no,pizza_ice_cream,vegetarian|hindu|low_lactose_diet
+"Pizza, Sandwich",no,yes,yes,yes,pizza_sandwich,halal|vegetarian|hindu
+"Pizza, Sandwich, Vegetarian",yes,yes,yes,no,pizza_sandwich_vegetarian,vegetarian|hindu|low_lactose_diet
+"Pizza, Seafood, Steak",no,no,yes,no,pizza_seafood_steak,halal|hindu|low_lactose_diet
+"Portuguese, African",no,no,no,no,portuguese_african,halal|low_lactose_diet
+"Portuguese, African, Lebanese",no,yes,yes,yes,portuguese_african_lebanese,halal|vegetarian|hindu
+Pub Food,yes,yes,no,yes,pub_food,vegetarian
+Rajasthani,no,no,no,yes,rajasthani,halal
+"Rajasthani, Gujarati, Mughlai",no,yes,yes,yes,rajasthani_gujarati_mughlai,halal|vegetarian|hindu
+"Ramen, Japanese",yes,yes,no,no,ramen_japanese,vegetarian|low_lactose_diet
+Raw Meats,no,yes,yes,no,raw_meats,halal|vegetarian|hindu|low_lactose_diet
+"Salad, Continental",yes,yes,yes,yes,salad_continental,vegetarian|hindu
+Sandwich,no,yes,yes,no,sandwich,halal|vegetarian|hindu|low_lactose_diet
+"Sandwich, Seafood, Cajun",yes,yes,yes,no,sandwich_seafood_cajun,vegetarian|hindu|low_lactose_diet
+"Sandwich, Seafood, Steak",yes,yes,no,no,sandwich_seafood_steak,vegetarian|low_lactose_diet
+"Sandwich, Sushi, Tapas",yes,no,yes,no,sandwich_sushi_tapas,hindu|low_lactose_diet
+Seafood,no,no,no,no,seafood,halal|low_lactose_diet
+"Seafood, African, Sushi",yes,yes,yes,yes,seafood_african_sushi,vegetarian|hindu
+"Seafood, Bar Food, Brazilian",no,no,yes,no,seafood_bar_food_brazilian,halal|hindu|low_lactose_diet
+"Seafood, Continental, European",no,yes,no,yes,seafood_continental_european,halal|vegetarian
+"Seafood, Continental, European, German",yes,yes,no,no,seafood_continental_european_german,vegetarian|low_lactose_diet
+"Seafood, French",no,yes,no,yes,seafood_french,halal|vegetarian
+"Seafood, Japanese, Sushi",yes,no,yes,yes,seafood_japanese_sushi,hindu
+"Seafood, Kiwi",yes,yes,no,no,seafood_kiwi,vegetarian|low_lactose_diet
+"Seafood, Mediterranean",no,yes,yes,no,seafood_mediterranean,halal|vegetarian|hindu|low_lactose_diet
+"Seafood, Southern",yes,yes,yes,yes,seafood_southern,vegetarian|hindu
+"Seafood, Steak",yes,no,yes,no,seafood_steak,hindu|low_lactose_diet
+"Seafood, Steak, Vegetarian",no,yes,no,yes,seafood_steak_vegetarian,halal|vegetarian
+"Seafood, Sushi",no,no,yes,yes,seafood_sushi,halal|hindu
+"Seafood, Tapas, Bar Food",yes,yes,no,yes,seafood_tapas_bar_food,vegetarian
+"Seafood, Western",yes,yes,yes,no,seafood_western,vegetarian|hindu|low_lactose_diet
+"Singaporean, Australian, German",no,no,yes,no,singaporean_australian_german,halal|hindu|low_lactose_diet
+Southern,yes,yes,no,yes,southern,vegetarian
+"Southern, Cajun, Soul Food",no,no,no,no,southern_cajun_soul_food,halal|low_lactose_diet
+"Spanish, Tapas",yes,no,no,yes,spanish_tapas,
+Sri Lankan,no,no,no,yes,sri_lankan,halal
+Steak,yes,no,yes,no,steak,hindu|low_lactose_diet
+"Steak, BBQ",no,no,yes,no,steak_bbq,halal|hindu|low_lactose_diet
+"Steak, Scottish, British",no,no,no,no,steak_scottish_british,halal|low_lactose_diet
+"Steak, Seafood, Grill",yes,no,yes,yes,steak_seafood_grill,hindu
+"Steak, Tapas, Bar Food",no,yes,no,no,steak_tapas_bar_food,halal|vegetarian|low_lactose_diet
+Street Food,no,yes,no,no,street_food,halal|vegetarian|low_lactose_diet
+"Sunda, Indonesian",no,yes,no,yes,sunda_indonesian,halal|vegetarian
+Sushi,yes,no,yes,yes,sushi,hindu
+"Sushi, Japanese",no,yes,yes,no,sushi_japanese,halal|vegetarian|hindu|low_lactose_diet
+"Sushi, Japanese, Cantonese",yes,yes,no,no,sushi_japanese_cantonese,vegetarian|low_lactose_diet
+"Sushi, Teriyaki",yes,no,yes,yes,sushi_teriyaki,hindu
+"Sushi, Thai",yes,yes,yes,yes,sushi_thai,vegetarian|hindu
+Tapas,yes,yes,no,yes,tapas,vegetarian
+Tea,yes,no,yes,no,tea,hindu|low_lactose_diet
+"Tea, Modern Australian",no,yes,no,no,tea_modern_australian,halal|vegetarian|low_lactose_diet
+Thai,no,no,yes,yes,thai,halal|hindu
+"Thai, Japanese",yes,yes,no,no,thai_japanese,vegetarian|low_lactose_diet
+Tibetan,yes,yes,no,yes,tibetan,vegetarian
+"Tibetan, Nepalese",no,no,yes,yes,tibetan_nepalese,halal|hindu
+Turkish,no,no,yes,yes,turkish,halal|hindu
+Turkish Pizza,no,no,no,no,turkish_pizza,halal|low_lactose_diet
+"Turkish, Arabian, Middle Eastern",no,yes,no,no,turkish_arabian_middle_eastern,halal|vegetarian|low_lactose_diet
+"Turkish, Arabian, Moroccan, Lebanese",no,yes,no,yes,turkish_arabian_moroccan_lebanese,halal|vegetarian
+"Turkish, Mediterranean, Middle Eastern",yes,no,yes,no,turkish_mediterranean_middle_eastern,hindu|low_lactose_diet
+Vietnamese,yes,yes,yes,no,vietnamese,vegetarian|hindu|low_lactose_diet
+"Vietnamese, Fish and Chips",yes,yes,yes,yes,vietnamese_fish_and_chips,vegetarian|hindu
+World Cuisine,no,yes,yes,no,world_cuisine,halal|vegetarian|hindu|low_lactose_diet
