@@ -1,0 +1,1271 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gn: <http://geonames.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix wb: <http://worldbank.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://geonames.org/country/AD> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 84000;
+  rdfs:label "Andorra" .
+
+<http://geonames.org/country/AE> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 4975593;
+  rdfs:label "United Arab Emirates" .
+
+<http://geonames.org/country/AF> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 29121286;
+  rdfs:label "Afghanistan" .
+
+<http://geonames.org/country/AG> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 86754;
+  rdfs:label "Antigua-and-Barbuda" .
+
+<http://geonames.org/country/AI> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 13254;
+  rdfs:label "Anguilla" .
+
+<http://geonames.org/country/AL> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 2986952;
+  rdfs:label "Albania" .
+
+<http://geonames.org/country/AM> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 2968000;
+  rdfs:label "Armenia" .
+
+<http://geonames.org/country/AN> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 300000;
+  rdfs:label "Netherlands Antilles" .
+
+<http://geonames.org/country/AO> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 13068161;
+  rdfs:label "Angola" .
+
+<http://geonames.org/country/AQ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AN>;
+  gn:population 0;
+  rdfs:label "Antarctica" .
+
+<http://geonames.org/country/AR> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 41343201;
+  rdfs:label "Argentina" .
+
+<http://geonames.org/country/AS> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 57881;
+  rdfs:label "American Samoa" .
+
+<http://geonames.org/country/AT> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 8205000;
+  rdfs:label "Austria" .
+
+<http://geonames.org/country/AU> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 21515754;
+  rdfs:label "Australia" .
+
+<http://geonames.org/country/AW> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 71566;
+  rdfs:label "Aruba" .
+
+<http://geonames.org/country/AX> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 26711;
+  rdfs:label "Aland Islands" .
+
+<http://geonames.org/country/AZ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 8303512;
+  rdfs:label "Azerbaijan" .
+
+<http://geonames.org/country/BA> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 4590000;
+  rdfs:label "Bosnia and Herzegovina" .
+
+<http://geonames.org/country/BB> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 285653;
+  rdfs:label "Barbados" .
+
+<http://geonames.org/country/BD> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 156118464;
+  rdfs:label "Bangladesh" .
+
+<http://geonames.org/country/BE> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 10403000;
+  rdfs:label "Belgium" .
+
+<http://geonames.org/country/BF> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 16241811;
+  rdfs:label "Burkina Faso" .
+
+<http://geonames.org/country/BG> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 7148785;
+  rdfs:label "Bulgaria" .
+
+<http://geonames.org/country/BH> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 738004;
+  rdfs:label "Bahrain" .
+
+<http://geonames.org/country/BI> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 9863117;
+  rdfs:label "Burundi" .
+
+<http://geonames.org/country/BJ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 9056010;
+  rdfs:label "Benin" .
+
+<http://geonames.org/country/BL> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 8450;
+  rdfs:label "Saint Barthelemy" .
+
+<http://geonames.org/country/BM> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 65365;
+  rdfs:label "Bermuda" .
+
+<http://geonames.org/country/BN> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 395027;
+  rdfs:label "Brunei" .
+
+<http://geonames.org/country/BO> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 9947418;
+  rdfs:label "Bolivia" .
+
+<http://geonames.org/country/BQ> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 18012;
+  rdfs:label "Bonaire| Saint Eustatius and Saba " .
+
+<http://geonames.org/country/BR> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 201103330;
+  rdfs:label "Brazil" .
+
+<http://geonames.org/country/BS> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 301790;
+  rdfs:label "Bahamas" .
+
+<http://geonames.org/country/BT> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 699847;
+  rdfs:label "Kingdom of Bhutan" .
+
+<http://geonames.org/country/BV> a gn:Country;
+  gn:continent <http://geonames.org/continent/AN>;
+  gn:population 0;
+  rdfs:label "Bouvet Island" .
+
+<http://geonames.org/country/BW> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 2029307;
+  rdfs:label "Botswana" .
+
+<http://geonames.org/country/BY> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 9685000;
+  rdfs:label "Belarus" .
+
+<http://geonames.org/country/BZ> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 314522;
+  rdfs:label "Belize" .
+
+<http://geonames.org/country/CA> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 33679000;
+  rdfs:label "Canada" .
+
+<http://geonames.org/country/CC> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 628;
+  rdfs:label "Cocos Islands" .
+
+<http://geonames.org/country/CD> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 70916439;
+  rdfs:label "Democratic Republic of the Congo" .
+
+<http://geonames.org/country/CF> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 4844927;
+  rdfs:label "Central African Republic" .
+
+<http://geonames.org/country/CG> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 3039126;
+  rdfs:label "Republic of the Congo" .
+
+<http://geonames.org/country/CH> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 7581000;
+  rdfs:label "Switzerland" .
+
+<http://geonames.org/country/CI> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 21058798;
+  rdfs:label "Ivory Coast" .
+
+<http://geonames.org/country/CK> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 21388;
+  rdfs:label "Cook Islands" .
+
+<http://geonames.org/country/CL> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 16746491;
+  rdfs:label "Chile" .
+
+<http://geonames.org/country/CM> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 19294149;
+  rdfs:label "Cameroon" .
+
+<http://geonames.org/country/CN> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 1330044000;
+  rdfs:label "China" .
+
+<http://geonames.org/country/CO> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 47790000;
+  rdfs:label "Colombia" .
+
+<http://geonames.org/country/CR> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 4516220;
+  rdfs:label "Costa Rica" .
+
+<http://geonames.org/country/CS> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 10829175;
+  rdfs:label "Serbia and Montenegro" .
+
+<http://geonames.org/country/CU> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 11423000;
+  rdfs:label "Cuba" .
+
+<http://geonames.org/country/CV> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 508659;
+  rdfs:label "Cape Verde" .
+
+<http://geonames.org/country/CW> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 141766;
+  rdfs:label "Curacao" .
+
+<http://geonames.org/country/CX> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 1500;
+  rdfs:label "Christmas Island" .
+
+<http://geonames.org/country/CY> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 1102677;
+  rdfs:label "Cyprus" .
+
+<http://geonames.org/country/CZ> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 10476000;
+  rdfs:label "Czechia" .
+
+<http://geonames.org/country/DE> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 81802257;
+  rdfs:label "Germany" .
+
+<http://geonames.org/country/DJ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 740528;
+  rdfs:label "Djibouti" .
+
+<http://geonames.org/country/DK> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 5484000;
+  rdfs:label "Denmark" .
+
+<http://geonames.org/country/DM> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 72813;
+  rdfs:label "Dominica" .
+
+<http://geonames.org/country/DO> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 9823821;
+  rdfs:label "Dominican Republic" .
+
+<http://geonames.org/country/DZ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 34586184;
+  rdfs:label "Algeria" .
+
+<http://geonames.org/country/EC> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 14790608;
+  rdfs:label "Ecuador" .
+
+<http://geonames.org/country/EE> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 1291170;
+  rdfs:label "Estonia" .
+
+<http://geonames.org/country/EG> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 80471869;
+  rdfs:label "Egypt" .
+
+<http://geonames.org/country/EH> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 273008;
+  rdfs:label "Western Sahara" .
+
+<http://geonames.org/country/ER> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 5792984;
+  rdfs:label "Érythrée" .
+
+<http://geonames.org/country/ES> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 46505963;
+  rdfs:label "Spain" .
+
+<http://geonames.org/country/ET> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 88013491;
+  rdfs:label "Ethiopia" .
+
+<http://geonames.org/country/FI> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 5244000;
+  rdfs:label "Finland" .
+
+<http://geonames.org/country/FJ> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 875983;
+  rdfs:label "Fiji" .
+
+<http://geonames.org/country/FK> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 2638;
+  rdfs:label "Falkland Islands" .
+
+<http://geonames.org/country/FM> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 107708;
+  rdfs:label "Micronesia" .
+
+<http://geonames.org/country/FO> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 48228;
+  rdfs:label "Faroe Islands" .
+
+<http://geonames.org/country/FR> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 64768389;
+  rdfs:label "France" .
+
+<http://geonames.org/country/GA> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 1545255;
+  rdfs:label "Gabon" .
+
+<http://geonames.org/country/GB> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 62348447;
+  rdfs:label "United Kingdom" .
+
+<http://geonames.org/country/GD> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 107818;
+  rdfs:label "Grenada" .
+
+<http://geonames.org/country/GE> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 4630000;
+  rdfs:label "Georgia" .
+
+<http://geonames.org/country/GF> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 195506;
+  rdfs:label "Guinée française" .
+
+<http://geonames.org/country/GG> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 65228;
+  rdfs:label "Guernsey" .
+
+<http://geonames.org/country/GH> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 24339838;
+  rdfs:label "Ghana" .
+
+<http://geonames.org/country/GI> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 27884;
+  rdfs:label "Gibraltar" .
+
+<http://geonames.org/country/GL> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 56375;
+  rdfs:label "Groenland" .
+
+<http://geonames.org/country/GM> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 1593256;
+  rdfs:label "Gambia" .
+
+<http://geonames.org/country/GN> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 10324025;
+  rdfs:label "Guinea" .
+
+<http://geonames.org/country/GP> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 443000;
+  rdfs:label "Guadeloupe" .
+
+<http://geonames.org/country/GQ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 1014999;
+  rdfs:label "Equatorial Guinea" .
+
+<http://geonames.org/country/GR> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 11000000;
+  rdfs:label "Greece" .
+
+<http://geonames.org/country/GS> a gn:Country;
+  gn:continent <http://geonames.org/continent/AN>;
+  gn:population 30;
+  rdfs:label "South Georgia and the South Sandwich Islands" .
+
+<http://geonames.org/country/GT> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 13550440;
+  rdfs:label "Guatemala" .
+
+<http://geonames.org/country/GU> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 159358;
+  rdfs:label "Guam" .
+
+<http://geonames.org/country/GW> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 1565126;
+  rdfs:label "Guinea-Bissau" .
+
+<http://geonames.org/country/GY> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 748486;
+  rdfs:label "Guyana" .
+
+<http://geonames.org/country/HK> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 6898686;
+  rdfs:label "Hong Kong" .
+
+<http://geonames.org/country/HM> a gn:Country;
+  gn:continent <http://geonames.org/continent/AN>;
+  gn:population 0;
+  rdfs:label "Heard Island and McDonald Islands" .
+
+<http://geonames.org/country/HN> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 7989415;
+  rdfs:label "Honduras" .
+
+<http://geonames.org/country/HR> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 4284889;
+  rdfs:label "Croatia" .
+
+<http://geonames.org/country/HT> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 9648924;
+  rdfs:label "Haiti" .
+
+<http://geonames.org/country/HU> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 9982000;
+  rdfs:label "Hungary" .
+
+<http://geonames.org/country/ID> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 242968342;
+  rdfs:label "Indonesia" .
+
+<http://geonames.org/country/IE> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 4622917;
+  rdfs:label "Ireland" .
+
+<http://geonames.org/country/IL> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 7353985;
+  rdfs:label "Israel" .
+
+<http://geonames.org/country/IM> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 75049;
+  rdfs:label "Isle of Man" .
+
+<http://geonames.org/country/IN> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 1173108018;
+  rdfs:label "India" .
+
+<http://geonames.org/country/IO> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 4000;
+  rdfs:label "British Indian Ocean Territory" .
+
+<http://geonames.org/country/IQ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 29671605;
+  rdfs:label "Iraq" .
+
+<http://geonames.org/country/IR> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 76923300;
+  rdfs:label "Iran" .
+
+<http://geonames.org/country/IS> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 308910;
+  rdfs:label "Iceland" .
+
+<http://geonames.org/country/IT> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 60340328;
+  rdfs:label "Italy" .
+
+<http://geonames.org/country/JE> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 90812;
+  rdfs:label "Jersey" .
+
+<http://geonames.org/country/JM> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 2847232;
+  rdfs:label "Jamaica" .
+
+<http://geonames.org/country/JO> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 6407085;
+  rdfs:label "Jordan" .
+
+<http://geonames.org/country/JP> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 127288000;
+  rdfs:label "Japan" .
+
+<http://geonames.org/country/KE> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 40046566;
+  rdfs:label "Kenya" .
+
+<http://geonames.org/country/KG> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 5776500;
+  rdfs:label "Kyrgyzstan" .
+
+<http://geonames.org/country/KH> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 14453680;
+  rdfs:label "Cambodge" .
+
+<http://geonames.org/country/KI> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 92533;
+  rdfs:label "Kiribati" .
+
+<http://geonames.org/country/KM> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 773407;
+  rdfs:label "Comoros" .
+
+<http://geonames.org/country/KN> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 51134;
+  rdfs:label "Saint Kitts and Nevis" .
+
+<http://geonames.org/country/KP> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 22912177;
+  rdfs:label "North Korea" .
+
+<http://geonames.org/country/KR> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 48422644;
+  rdfs:label "South Korea" .
+
+<http://geonames.org/country/KW> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 2789132;
+  rdfs:label "Kuwait" .
+
+<http://geonames.org/country/KY> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 44270;
+  rdfs:label "Cayman Islands" .
+
+<http://geonames.org/country/KZ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 15340000;
+  rdfs:label "Kazakhstan" .
+
+<http://geonames.org/country/LA> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 6368162;
+  rdfs:label "Laos" .
+
+<http://geonames.org/country/LB> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 4125247;
+  rdfs:label "Lebanon" .
+
+<http://geonames.org/country/LC> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 160922;
+  rdfs:label "Saint-Lucie" .
+
+<http://geonames.org/country/LI> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 35000;
+  rdfs:label "Liechtenstein" .
+
+<http://geonames.org/country/LK> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 21513990;
+  rdfs:label "Sri Lanka" .
+
+<http://geonames.org/country/LR> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 3685076;
+  rdfs:label "Liberia" .
+
+<http://geonames.org/country/LS> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 1919552;
+  rdfs:label "Lesotho" .
+
+<http://geonames.org/country/LT> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 2944459;
+  rdfs:label "Lithuania" .
+
+<http://geonames.org/country/LU> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 497538;
+  rdfs:label "Luxembourg" .
+
+<http://geonames.org/country/LV> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 2217969;
+  rdfs:label "Latvia" .
+
+<http://geonames.org/country/LY> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 6461454;
+  rdfs:label "Libya" .
+
+<http://geonames.org/country/MA> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 33848242;
+  rdfs:label "Morocco" .
+
+<http://geonames.org/country/MC> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 32965;
+  rdfs:label "Principauté de Monaco" .
+
+<http://geonames.org/country/MD> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 4324000;
+  rdfs:label "Moldova" .
+
+<http://geonames.org/country/ME> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 666730;
+  rdfs:label "Montenegro" .
+
+<http://geonames.org/country/MF> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 35925;
+  rdfs:label "Saint Martin" .
+
+<http://geonames.org/country/MG> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 21281844;
+  rdfs:label "Madagascar" .
+
+<http://geonames.org/country/MH> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 65859;
+  rdfs:label "Îles Marshall" .
+
+<http://geonames.org/country/MK> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 2062294;
+  rdfs:label "Macédoine" .
+
+<http://geonames.org/country/ML> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 13796354;
+  rdfs:label "Mali" .
+
+<http://geonames.org/country/MM> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 53414374;
+  rdfs:label "Myanmar" .
+
+<http://geonames.org/country/MN> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 3086918;
+  rdfs:label "Mongolia" .
+
+<http://geonames.org/country/MO> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 449198;
+  rdfs:label "Macao" .
+
+<http://geonames.org/country/MP> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 53883;
+  rdfs:label "Northern Mariana Islands" .
+
+<http://geonames.org/country/MQ> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 432900;
+  rdfs:label "Martinique" .
+
+<http://geonames.org/country/MR> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 3205060;
+  rdfs:label "Mauritania" .
+
+<http://geonames.org/country/MS> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 9341;
+  rdfs:label "Montserrat" .
+
+<http://geonames.org/country/MT> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 403000;
+  rdfs:label "Malta" .
+
+<http://geonames.org/country/MU> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 1294104;
+  rdfs:label "Mauritius" .
+
+<http://geonames.org/country/MV> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 395650;
+  rdfs:label "Maldives" .
+
+<http://geonames.org/country/MW> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 15447500;
+  rdfs:label "Malawi" .
+
+<http://geonames.org/country/MX> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 112468855;
+  rdfs:label "Mexique" .
+
+<http://geonames.org/country/MY> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 28274729;
+  rdfs:label "Malaysia" .
+
+<http://geonames.org/country/MZ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 22061451;
+  rdfs:label "Mozambique" .
+
+<http://geonames.org/country/NA> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 2128471;
+  rdfs:label "Namibia" .
+
+<http://geonames.org/country/NC> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 216494;
+  rdfs:label "New Caledonia" .
+
+<http://geonames.org/country/NE> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 15878271;
+  rdfs:label "Niger" .
+
+<http://geonames.org/country/NF> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 1828;
+  rdfs:label "Norfolk Island" .
+
+<http://geonames.org/country/NG> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 154000000;
+  rdfs:label "Nigeria" .
+
+<http://geonames.org/country/NI> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 5995928;
+  rdfs:label "Nicaragua" .
+
+<http://geonames.org/country/NL> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 16645000;
+  rdfs:label "Netherlands" .
+
+<http://geonames.org/country/NO> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 5009150;
+  rdfs:label "Norway" .
+
+<http://geonames.org/country/NP> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 28951852;
+  rdfs:label "Nepal" .
+
+<http://geonames.org/country/NR> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 10065;
+  rdfs:label "Nauru" .
+
+<http://geonames.org/country/NU> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 2166;
+  rdfs:label "Niue" .
+
+<http://geonames.org/country/NZ> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 4252277;
+  rdfs:label "Nouvelle-Zélande" .
+
+<http://geonames.org/country/OM> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 2967717;
+  rdfs:label "Oman" .
+
+<http://geonames.org/country/PA> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 3410676;
+  rdfs:label "Panama" .
+
+<http://geonames.org/country/PE> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 29907003;
+  rdfs:label "Peru" .
+
+<http://geonames.org/country/PF> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 270485;
+  rdfs:label "Polynésie francaise" .
+
+<http://geonames.org/country/PG> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 6064515;
+  rdfs:label "Papouasie-Nouvelle-Guinée" .
+
+<http://geonames.org/country/PH> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 99900177;
+  rdfs:label "Philippines" .
+
+<http://geonames.org/country/PK> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 184404791;
+  rdfs:label "Pakistan" .
+
+<http://geonames.org/country/PL> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 38500000;
+  rdfs:label "Poland" .
+
+<http://geonames.org/country/PM> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 7012;
+  rdfs:label "Saint-Pierre-et-Miquelon" .
+
+<http://geonames.org/country/PN> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 46;
+  rdfs:label "Pitcairn" .
+
+<http://geonames.org/country/PR> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 3916632;
+  rdfs:label "Puerto Rico" .
+
+<http://geonames.org/country/PS> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 3800000;
+  rdfs:label "Palestinian Territory" .
+
+<http://geonames.org/country/PT> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 10676000;
+  rdfs:label "Portugal" .
+
+<http://geonames.org/country/PW> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 19907;
+  rdfs:label "Palau" .
+
+<http://geonames.org/country/PY> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 6375830;
+  rdfs:label "Paraguay" .
+
+<http://geonames.org/country/QA> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 840926;
+  rdfs:label "Qatar" .
+
+<http://geonames.org/country/RE> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 776948;
+  rdfs:label "Reunion" .
+
+<http://geonames.org/country/RO> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 21959278;
+  rdfs:label "Roumanie" .
+
+<http://geonames.org/country/RS> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 7344847;
+  rdfs:label "Serbia" .
+
+<http://geonames.org/country/RU> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 140702000;
+  rdfs:label "Russia" .
+
+<http://geonames.org/country/RW> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 11055976;
+  rdfs:label "Rwanda" .
+
+<http://geonames.org/country/SA> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 25731776;
+  rdfs:label "Saudi Arabia" .
+
+<http://geonames.org/country/SB> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 559198;
+  rdfs:label "Solomon Islands" .
+
+<http://geonames.org/country/SC> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 88340;
+  rdfs:label "Seychelles" .
+
+<http://geonames.org/country/SD> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 35000000;
+  rdfs:label "Sudan" .
+
+<http://geonames.org/country/SE> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 9828655;
+  rdfs:label "Sweden" .
+
+<http://geonames.org/country/SG> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 4701069;
+  rdfs:label "Singapore" .
+
+<http://geonames.org/country/SH> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 7460;
+  rdfs:label "Saint Helena" .
+
+<http://geonames.org/country/SI> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 2007000;
+  rdfs:label "Slovenia" .
+
+<http://geonames.org/country/SJ> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 2550;
+  rdfs:label "Svalbard and Jan Mayen" .
+
+<http://geonames.org/country/SK> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 5455000;
+  rdfs:label "Slovaquie" .
+
+<http://geonames.org/country/SL> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 5245695;
+  rdfs:label "Sierra Leone" .
+
+<http://geonames.org/country/SM> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 31477;
+  rdfs:label "Saint Marin" .
+
+<http://geonames.org/country/SN> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 12323252;
+  rdfs:label "Senegal" .
+
+<http://geonames.org/country/SO> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 10112453;
+  rdfs:label "Somalia" .
+
+<http://geonames.org/country/SR> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 492829;
+  rdfs:label "Suriname" .
+
+<http://geonames.org/country/SS> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 8260490;
+  rdfs:label "South Sudan" .
+
+<http://geonames.org/country/ST> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 175808;
+  rdfs:label "Sao Tome and Principe" .
+
+<http://geonames.org/country/SV> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 6052064;
+  rdfs:label "El Salvador" .
+
+<http://geonames.org/country/SX> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 37429;
+  rdfs:label "Sint Maarten" .
+
+<http://geonames.org/country/SY> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 22198110;
+  rdfs:label "Syria" .
+
+<http://geonames.org/country/SZ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 1354051;
+  rdfs:label "Swaziland" .
+
+<http://geonames.org/country/TC> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 20556;
+  rdfs:label "Turks and Caicos Islands" .
+
+<http://geonames.org/country/TD> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 10543464;
+  rdfs:label "Chad" .
+
+<http://geonames.org/country/TF> a gn:Country;
+  gn:continent <http://geonames.org/continent/AN>;
+  gn:population 140;
+  rdfs:label "French Southern Territories" .
+
+<http://geonames.org/country/TG> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 6587239;
+  rdfs:label "Togo" .
+
+<http://geonames.org/country/TH> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 67089500;
+  rdfs:label "Thailand" .
+
+<http://geonames.org/country/TJ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 7487489;
+  rdfs:label "Tajikistan" .
+
+<http://geonames.org/country/TK> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 1466;
+  rdfs:label "Tokelau" .
+
+<http://geonames.org/country/TL> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 1154625;
+  rdfs:label "Timor Leste" .
+
+<http://geonames.org/country/TM> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 4940916;
+  rdfs:label "Turkmenistan" .
+
+<http://geonames.org/country/TN> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 10589025;
+  rdfs:label "Tunisia" .
+
+<http://geonames.org/country/TO> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 122580;
+  rdfs:label "Tonga" .
+
+<http://geonames.org/country/TR> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 77804122;
+  rdfs:label "Turkey" .
+
+<http://geonames.org/country/TT> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 1328019;
+  rdfs:label "Trinité-et-Tobago" .
+
+<http://geonames.org/country/TV> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 10472;
+  rdfs:label "Tuvalu" .
+
+<http://geonames.org/country/TW> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 22894384;
+  rdfs:label "Taiwan" .
+
+<http://geonames.org/country/TZ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 41892895;
+  rdfs:label "Tanzania" .
+
+<http://geonames.org/country/UA> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 45415596;
+  rdfs:label "Ukraine" .
+
+<http://geonames.org/country/UG> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 33398682;
+  rdfs:label "Uganda" .
+
+<http://geonames.org/country/UM> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 0;
+  rdfs:label "United States Minor Outlying Islands" .
+
+<http://geonames.org/country/US> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 310232863;
+  rdfs:label "United States" .
+
+<http://geonames.org/country/UY> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 3477000;
+  rdfs:label "Uruguay" .
+
+<http://geonames.org/country/UZ> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 27865738;
+  rdfs:label "Uzbekistan" .
+
+<http://geonames.org/country/VA> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 921;
+  rdfs:label "Vatican" .
+
+<http://geonames.org/country/VC> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 104217;
+  rdfs:label "Saint-Vincent et les Grenadines" .
+
+<http://geonames.org/country/VE> a gn:Country;
+  gn:continent <http://geonames.org/continent/SA>;
+  gn:population 27223228;
+  rdfs:label "Venezuela" .
+
+<http://geonames.org/country/VG> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 21730;
+  rdfs:label "British Virgin Islands" .
+
+<http://geonames.org/country/VI> a gn:Country;
+  gn:continent <http://geonames.org/continent/NA>;
+  gn:population 108708;
+  rdfs:label "U.S. Virgin Islands" .
+
+<http://geonames.org/country/VN> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 89571130;
+  rdfs:label "Vietnam" .
+
+<http://geonames.org/country/VU> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 221552;
+  rdfs:label "Vanuatu" .
+
+<http://geonames.org/country/WF> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 16025;
+  rdfs:label "Wallis and Futuna" .
+
+<http://geonames.org/country/WS> a gn:Country;
+  gn:continent <http://geonames.org/continent/OC>;
+  gn:population 192001;
+  rdfs:label "Samoa" .
+
+<http://geonames.org/country/XK> a gn:Country;
+  gn:continent <http://geonames.org/continent/EU>;
+  gn:population 1800000;
+  rdfs:label "Kosovo" .
+
+<http://geonames.org/country/YE> a gn:Country;
+  gn:continent <http://geonames.org/continent/AS>;
+  gn:population 23495361;
+  rdfs:label "Yemen" .
+
+<http://geonames.org/country/YT> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 159042;
+  rdfs:label "Mayotte" .
+
+<http://geonames.org/country/ZA> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 49000000;
+  rdfs:label "South Africa" .
+
+<http://geonames.org/country/ZM> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 13460305;
+  rdfs:label "Zambia" .
+
+<http://geonames.org/country/ZW> a gn:Country;
+  gn:continent <http://geonames.org/continent/AF>;
+  gn:population 13061000;
+  rdfs:label "Zimbabwe" .

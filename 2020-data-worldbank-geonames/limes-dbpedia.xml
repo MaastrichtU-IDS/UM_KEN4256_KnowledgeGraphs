@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES>
+  <PREFIX>
+    <NAMESPACE>http://www.w3.org/1999/02/22-rdf-syntax-ns#</NAMESPACE>
+    <LABEL>rdf</LABEL>
+  </PREFIX>
+  <PREFIX>
+    <NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+    <LABEL>rdfs</LABEL>
+  </PREFIX>
+  <PREFIX>
+    <NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+    <LABEL>owl</LABEL>
+  </PREFIX>
+  <PREFIX>
+    <NAMESPACE>http://dbpedia.org/ontology/</NAMESPACE>
+    <LABEL>dbo</LABEL>
+  </PREFIX>
+  <PREFIX>
+    <NAMESPACE>https://schema.org/</NAMESPACE>
+    <LABEL>schema</LABEL>
+  </PREFIX>
+  <PREFIX>
+      <NAMESPACE>http://geonames.org/</NAMESPACE>
+      <LABEL>gn</LABEL>
+  </PREFIX>
+  <PREFIX>
+      <NAMESPACE>http://worldbank.org/</NAMESPACE>
+      <LABEL>wb</LABEL>
+  </PREFIX>
+
+  <SOURCE>
+    <ID>geonames</ID>
+    <ENDPOINT>/home/vemonet/develop/courses/UM_KEN4256_KnowledgeGraphs/2020-data-worldbank-geonames/geonames.ttl</ENDPOINT>
+    <VAR>?y</VAR>
+    <PAGESIZE>5000</PAGESIZE>
+    <RESTRICTION>?y rdf:type gn:Country</RESTRICTION>
+    <PROPERTY>rdfs:label</PROPERTY>
+    <TYPE>TURTLE</TYPE>
+  </SOURCE>  
+
+  <TARGET>
+    <ID>dbpedia</ID>
+    <ENDPOINT>http://dbpedia.org/sparql</ENDPOINT>
+    <VAR>?x</VAR>
+    <PAGESIZE>5000</PAGESIZE>
+    <RESTRICTION>?x rdf:type dbo:Country</RESTRICTION>
+    <PROPERTY>rdfs:label</PROPERTY>
+    <!-- <TYPE>sparql</TYPE> -->
+  </TARGET>
+
+  <METRIC>
+    levenshtein(x.rdfs:label, y.rdfs:label)
+  </METRIC>
+
+  <ACCEPTANCE>
+    <THRESHOLD>0.90</THRESHOLD>
+    <FILE>limes_accepted.nt</FILE>
+    <RELATION>owl:sameAs</RELATION>
+  </ACCEPTANCE>
+  <REVIEW>
+    <THRESHOLD>0.3</THRESHOLD>
+    <FILE>limes_reviewme.nt</FILE>
+    <RELATION>owl:sameAs</RELATION>
+  </REVIEW>
+
+  <EXECUTION>
+    <REWRITER>DEFAULT</REWRITER>
+    <PLANNER>DEFAULT</PLANNER>
+    <ENGINE>DEFAULT</ENGINE>
+  </EXECUTION>
+  <OUTPUT>N3</OUTPUT>
+
+</LIMES>

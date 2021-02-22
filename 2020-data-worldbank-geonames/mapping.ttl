@@ -45,22 +45,22 @@
 
 
 # Generates GDP entries yearly for each country from WorldBank data
-<TriplesMapGdpEntries> 
-  a rr:TriplesMap;
+# <TriplesMapGdpEntries> 
+#   a rr:TriplesMap;
 
-  rml:logicalSource [
-    rml:source "dataset-worldbank-gdp.xml";
-    rml:referenceFormulation ql:XPath ;
-    rml:iterator "/Root/data/record"
-  ];
+#   rml:logicalSource [
+#     rml:source "dataset-worldbank-gdp.xml";
+#     rml:referenceFormulation ql:XPath ;
+#     rml:iterator "/Root/data/record"
+#   ];
 
-  # Generate a URI for each GDP yearly entry, for each country
-  rr:subjectMap [ rr:template "http://worldbank.org/country/{country/@key}/gdp/{year}" ;
-    rr:class wb:GdpEntry ];
+#   # Generate a URI for each GDP yearly entry, for each country
+#   rr:subjectMap [ rr:template "http://worldbank.org/country/{country/@key}/gdp/{year}" ;
+#     rr:class wb:GdpEntry ];
 
-  # Add the country label to the GDP entry
-  rr:predicateObjectMap [ 
-    rr:predicate wb:country_label ;
-    rr:objectMap [ rr:template "http://worldbank.org/country/{country}" ]
-  ] 
- .
+#   # Add the country label to the GDP entry
+#   rr:predicateObjectMap [ 
+#     rr:predicate wb:country_label ;
+#     rr:objectMap [ rr:template "http://worldbank.org/country/{country}" ]
+#   ] 
+#  .
