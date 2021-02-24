@@ -17,7 +17,7 @@ Download the rmlmapper from their GitHub releases at https://github.com/RMLio/rm
 
 Rename it to `rmlmapper.jar`, and place it in the same folder as the mappings
 
-Students using bash (Linux, MacOS, WSL) can download the latest version in one line:
+Students using bash (Linux, MacOS, WSL) can download the latest version in one command:
 
 ```bash
 curl -s https://api.github.com/repos/RMLio/rmlmapper-java/releases/latest \
