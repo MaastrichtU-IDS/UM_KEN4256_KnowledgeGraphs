@@ -1,0 +1,54 @@
+prefixes:
+  grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  owl: "http://www.w3.org/2002/07/owl#"
+  dc: "http://purl.org/dc/elements/1.1/"
+  schema: "https://schema.org/"
+  ken: "https://w3id.org/um/ken4256/"
+  fo: "http://purl.org/ontology/fo/"
+
+mappings:
+
+  spiciness:
+    # Create a triple to define the spiciness data property for fo:Ingredients
+    sources:
+      - ['all_recipes.json~jsonpath', "$"]
+    s: ken:ontology/spiciness
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, 'Spiciness']
+      - [rdfs:comment, 'Spiciness level of an ingredient (float)']
+      - [rdfs:domain, fo:Ingredient~iri]
+      - [rdfs:range, xsd:Double~iri]
+  
+  recipes:
+    sources:
+      - ['all_recipes.json~jsonpath', "$.recipes[*]"]
+    s: ken:recipe/$(id)
+    po:
+      - [a, fo:Recipe]
+      - [rdfs:label, $(recipeName)]
+      - [dc:identifier, $(id)]
+      - [fo:cuisine, ken:cuisine/$(attributes.cuisine)~iri]
+      - [fo:ingredients, ken:ingredient/$(ingredients)~iri]
+      - [fo:cookingTime, $(totalTimeInSeconds), xsd:integer]
+      - [fo:course, $(attributes.course)]
+      - [fo:rating, $(rating), xsd:integer]
+      - [ken:ontology/spiciness, $(flavors.piquant), xsd:double]
+
+  ingredients:
+    sources:
+      - ['all_recipes.json~jsonpath', "$.ingredients[*]"]
+    s: ken:ingredient/$(id)
+    po:
+      - [rdfs:label, $(label)]
+      - [a, fo:Ingredient]
+
+  cuisines:
+    sources:
+      - ['all_recipes.json~jsonpath', "$.cuisines[*]"]
+    s: ken:ingredient/$(label)
+    po:
+      - [rdfs:label, $(label)]
+      - [a, fo:Cuisine]
