@@ -13269,7 +13269,7 @@ To start running SPARQL query in this notebook, we need to define the **SPARQL k
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="x">%endpoint http://dbpedia.org/sparql</span>
@@ -13331,7 +13331,7 @@ To start running SPARQL query in this notebook, we need to define the **SPARQL k
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dbo</span><span class="p">:</span> <span class="nl">&lt;http://dbpedia.org/ontology/&gt;</span>
@@ -13401,7 +13401,7 @@ To start running SPARQL query in this notebook, we need to define the **SPARQL k
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dbo</span><span class="p">:</span> <span class="nl">&lt;http://dbpedia.org/ontology/&gt;</span>
@@ -13413,7 +13413,7 @@ To start running SPARQL query in this notebook, we need to define the **SPARQL k
     <span class="nn">dbp</span><span class="p">:</span><span class="nt">gdpPppPerCapita</span> <span class="nv">?gdp</span> <span class="p">.</span>
   <span class="nv">?continent</span> <span class="k">a</span> <span class="nn">dbo</span><span class="p">:</span><span class="nt">Continent</span> <span class="p">.</span>
 <span class="p">}</span>
-<span class="k">GROUP BY</span> <span class="nv">?continent</span> <span class="err">ORDER</span> <span class="k">DESC</span><span class="p">(</span><span class="nv">?avgGdp</span><span class="p">)</span>
+<span class="k">GROUP BY</span> <span class="nv">?continent</span> <span class="k">ORDER BY</span> <span class="k">DESC</span><span class="p">(</span><span class="nv">?avgGdp</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13466,7 +13466,7 @@ To start running SPARQL query in this notebook, we need to define the **SPARQL k
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dbo</span><span class="p">:</span> <span class="nl">&lt;http://dbpedia.org/ontology/&gt;</span>
@@ -13530,7 +13530,7 @@ The country of origin of book authors should be represented by <strong><a href="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dbo</span><span class="p">:</span> <span class="nl">&lt;http://dbpedia.org/ontology/&gt;</span>
@@ -13566,45 +13566,45 @@ The country of origin of book authors should be represented by <strong><a href="
 <div class="output_html rendered_html output_subarea ">
 <div class="krn-spql"><table><tr class=hdr><th>subject</th>
 <th>predicate</th>
-<th>object</th></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/William_Hazlitt" target="_other">http://dbpedia.org/resource/William_Hazlitt</a></td>
-<td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
-<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Martin_Boyd" target="_other">http://dbpedia.org/resource/Martin_Boyd</a></td>
+<th>object</th></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Peter_Kennard" target="_other">http://dbpedia.org/resource/Peter_Kennard</a></td>
 <td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
-<td class=val><a href="http://dbpedia.org/resource/Switzerland" target="_other">http://dbpedia.org/resource/Switzerland</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Andreas_Eschbach" target="_other">http://dbpedia.org/resource/Andreas_Eschbach</a></td>
+<td class=val><a href="http://dbpedia.org/resource/United_Kingdom" target="_other">http://dbpedia.org/resource/United_Kingdom</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Andreas_Eschbach" target="_other">http://dbpedia.org/resource/Andreas_Eschbach</a></td>
 <td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
-<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Alejandro_Pérez_Lugín" target="_other">http://dbpedia.org/resource/Alejandro_Pérez_Lugín</a></td>
+<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Martin_Boyd" target="_other">http://dbpedia.org/resource/Martin_Boyd</a></td>
+<td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
+<td class=val><a href="http://dbpedia.org/resource/Switzerland" target="_other">http://dbpedia.org/resource/Switzerland</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Martin_Boyd" target="_other">http://dbpedia.org/resource/Martin_Boyd</a></td>
+<td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
+<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/William_Hazlitt" target="_other">http://dbpedia.org/resource/William_Hazlitt</a></td>
+<td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
+<td class=val><a href="http://dbpedia.org/resource/United_Kingdom" target="_other">http://dbpedia.org/resource/United_Kingdom</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Jack_Wisdom" target="_other">http://dbpedia.org/resource/Jack_Wisdom</a></td>
+<td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
+<td class=val><a href="http://dbpedia.org/resource/United_States" target="_other">http://dbpedia.org/resource/United_States</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Jack_Wisdom" target="_other">http://dbpedia.org/resource/Jack_Wisdom</a></td>
+<td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
+<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Francisco_de_Quevedo" target="_other">http://dbpedia.org/resource/Francisco_de_Quevedo</a></td>
 <td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
 <td class=val><a href="http://dbpedia.org/resource/Spain" target="_other">http://dbpedia.org/resource/Spain</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/William_Hazlitt" target="_other">http://dbpedia.org/resource/William_Hazlitt</a></td>
 <td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
-<td class=val><a href="http://dbpedia.org/resource/Kent" target="_other">http://dbpedia.org/resource/Kent</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Jon_Courtenay_Grimwood" target="_other">http://dbpedia.org/resource/Jon_Courtenay_Grimwood</a></td>
+<td class=val><a href="http://dbpedia.org/resource/Kent" target="_other">http://dbpedia.org/resource/Kent</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Peter_Kennard" target="_other">http://dbpedia.org/resource/Peter_Kennard</a></td>
+<td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
+<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/William_Hazlitt" target="_other">http://dbpedia.org/resource/William_Hazlitt</a></td>
+<td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
+<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Jon_Courtenay_Grimwood" target="_other">http://dbpedia.org/resource/Jon_Courtenay_Grimwood</a></td>
+<td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
+<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Jon_Courtenay_Grimwood" target="_other">http://dbpedia.org/resource/Jon_Courtenay_Grimwood</a></td>
 <td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
-<td class=val><a href="http://dbpedia.org/resource/Malta" target="_other">http://dbpedia.org/resource/Malta</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Alejandro_Pérez_Lugín" target="_other">http://dbpedia.org/resource/Alejandro_Pérez_Lugín</a></td>
+<td class=val><a href="http://dbpedia.org/resource/Malta" target="_other">http://dbpedia.org/resource/Malta</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Alejandro_Pérez_Lugín" target="_other">http://dbpedia.org/resource/Alejandro_Pérez_Lugín</a></td>
+<td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
+<td class=val><a href="http://dbpedia.org/resource/Spain" target="_other">http://dbpedia.org/resource/Spain</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Alejandro_Pérez_Lugín" target="_other">http://dbpedia.org/resource/Alejandro_Pérez_Lugín</a></td>
 <td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
 <td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Donald_Hamilton" target="_other">http://dbpedia.org/resource/Donald_Hamilton</a></td>
 <td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
 <td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Francisco_de_Quevedo" target="_other">http://dbpedia.org/resource/Francisco_de_Quevedo</a></td>
 <td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
-<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/William_Hazlitt" target="_other">http://dbpedia.org/resource/William_Hazlitt</a></td>
+<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Donald_Hamilton" target="_other">http://dbpedia.org/resource/Donald_Hamilton</a></td>
 <td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
-<td class=val><a href="http://dbpedia.org/resource/United_Kingdom" target="_other">http://dbpedia.org/resource/United_Kingdom</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Francisco_de_Quevedo" target="_other">http://dbpedia.org/resource/Francisco_de_Quevedo</a></td>
+<td class=val><a href="http://dbpedia.org/resource/Sweden" target="_other">http://dbpedia.org/resource/Sweden</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Andreas_Eschbach" target="_other">http://dbpedia.org/resource/Andreas_Eschbach</a></td>
 <td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
-<td class=val><a href="http://dbpedia.org/resource/Spain" target="_other">http://dbpedia.org/resource/Spain</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Jon_Courtenay_Grimwood" target="_other">http://dbpedia.org/resource/Jon_Courtenay_Grimwood</a></td>
-<td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
-<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Jack_Wisdom" target="_other">http://dbpedia.org/resource/Jack_Wisdom</a></td>
-<td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
-<td class=val><a href="http://dbpedia.org/resource/United_States" target="_other">http://dbpedia.org/resource/United_States</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Peter_Kennard" target="_other">http://dbpedia.org/resource/Peter_Kennard</a></td>
-<td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
-<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Peter_Kennard" target="_other">http://dbpedia.org/resource/Peter_Kennard</a></td>
-<td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
-<td class=val><a href="http://dbpedia.org/resource/United_Kingdom" target="_other">http://dbpedia.org/resource/United_Kingdom</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Andreas_Eschbach" target="_other">http://dbpedia.org/resource/Andreas_Eschbach</a></td>
-<td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
-<td class=val><a href="http://dbpedia.org/resource/http://dbpedia.org/resource/Germany" target="_other">http://dbpedia.org/resource/http://dbpedia.org/resource/Germany</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Donald_Hamilton" target="_other">http://dbpedia.org/resource/Donald_Hamilton</a></td>
-<td class=val><a href="http://schema.org/countryOfOrigin" target="_other">http://schema.org/countryOfOrigin</a></td>
-<td class=val><a href="http://dbpedia.org/resource/Sweden" target="_other">http://dbpedia.org/resource/Sweden</a></td></tr><tr class=even><td class=val><a href="http://dbpedia.org/resource/Jack_Wisdom" target="_other">http://dbpedia.org/resource/Jack_Wisdom</a></td>
-<td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
-<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr><tr class=odd><td class=val><a href="http://dbpedia.org/resource/Martin_Boyd" target="_other">http://dbpedia.org/resource/Martin_Boyd</a></td>
-<td class=val><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" target="_other">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
-<td class=val><a href="http://schema.org/Person" target="_other">http://schema.org/Person</a></td></tr></table><div class="tinfo">Shown: 19, Total rows: 19</div></div>
+<td class=val><a href="http://dbpedia.org/resource/http://dbpedia.org/resource/Germany" target="_other">http://dbpedia.org/resource/http://dbpedia.org/resource/Germany</a></td></tr></table><div class="tinfo">Shown: 19, Total rows: 19</div></div>
 </div>
 
 </div>
@@ -13634,7 +13634,7 @@ The country of origin of book authors should be represented by <strong><a href="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="x">%endpoint http://bio2rdf.org/sparql</span>
@@ -13691,7 +13691,7 @@ List drugs that interact with 10 proteins and the label of the Genes that encode
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">skos</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2004/02/skos/core#&gt;</span>
