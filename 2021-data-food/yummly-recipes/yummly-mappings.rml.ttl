@@ -5,194 +5,196 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
-map:map_cuisines_0 rml:logicalSource map:source_3;
+map:map_cuisines_000 rml:logicalSource map:source_003;
     a rr:TriplesMap;
     rdfs:label "cuisines";
-    rr:subjectMap map:s_3;
-    rr:predicateObjectMap map:pom_16, map:pom_17.
-map:map_ingredients_0 rml:logicalSource map:source_2;
+    rr:subjectMap map:s_003;
+    rr:predicateObjectMap map:pom_016, map:pom_017.
+map:map_ingredients_000 rml:logicalSource map:source_002;
     a rr:TriplesMap;
     rdfs:label "ingredients";
-    rr:subjectMap map:s_2;
-    rr:predicateObjectMap map:pom_14, map:pom_15.
-map:map_recipes_0 rml:logicalSource map:source_1;
+    rr:subjectMap map:s_002;
+    rr:predicateObjectMap map:pom_014, map:pom_015.
+map:map_recipes_000 rml:logicalSource map:source_001;
     a rr:TriplesMap;
     rdfs:label "recipes";
-    rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13.
-map:map_spiciness_0 rml:logicalSource map:source_0;
+    rr:subjectMap map:s_001;
+    rr:predicateObjectMap map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012, map:pom_013.
+map:map_spiciness_000 rml:logicalSource map:source_000;
     a rr:TriplesMap;
     rdfs:label "spiciness";
-    rr:subjectMap map:s_0;
-    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4.
-map:om_0 a rr:ObjectMap;
+    rr:subjectMap map:s_000;
+    rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004.
+map:om_000 a rr:ObjectMap;
     rr:constant "http://www.w3.org/2002/07/owl#DatatypeProperty";
     rr:termType rr:IRI.
-map:om_1 a rr:ObjectMap;
+map:om_001 a rr:ObjectMap;
     rr:constant "Spiciness";
     rr:termType rr:Literal.
-map:om_10 a rr:ObjectMap;
+map:om_002 a rr:ObjectMap;
+    rr:constant "Spiciness level of an ingredient (float)";
+    rr:termType rr:Literal.
+map:om_003 a rr:ObjectMap;
+    rr:constant "http://purl.org/ontology/fo/Ingredient";
+    rr:termType rr:IRI.
+map:om_004 a rr:ObjectMap;
+    rr:constant "http://www.w3.org/2001/XMLSchema#Double";
+    rr:termType rr:IRI.
+map:om_005 a rr:ObjectMap;
+    rr:constant "http://purl.org/ontology/fo/Recipe";
+    rr:termType rr:IRI.
+map:om_006 a rr:ObjectMap;
+    rml:reference "recipeName";
+    rr:termType rr:Literal.
+map:om_007 a rr:ObjectMap;
+    rml:reference "id";
+    rr:termType rr:Literal.
+map:om_008 a rr:ObjectMap;
+    rr:template "https://w3id.org/um/ken4256/cuisine/{attributes.cuisine}";
+    rr:termType rr:IRI.
+map:om_009 a rr:ObjectMap;
+    rr:template "https://w3id.org/um/ken4256/ingredient/{ingredients}";
+    rr:termType rr:IRI.
+map:om_010 a rr:ObjectMap;
     rml:reference "totalTimeInSeconds";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_11 a rr:ObjectMap;
+map:om_011 a rr:ObjectMap;
     rml:reference "attributes.course";
     rr:termType rr:Literal.
-map:om_12 a rr:ObjectMap;
+map:om_012 a rr:ObjectMap;
     rml:reference "rating";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_13 a rr:ObjectMap;
+map:om_013 a rr:ObjectMap;
     rml:reference "flavors.piquant";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_14 a rr:ObjectMap;
+map:om_014 a rr:ObjectMap;
     rml:reference "label";
     rr:termType rr:Literal.
-map:om_15 a rr:ObjectMap;
+map:om_015 a rr:ObjectMap;
     rr:constant "http://purl.org/ontology/fo/Ingredient";
     rr:termType rr:IRI.
-map:om_16 a rr:ObjectMap;
+map:om_016 a rr:ObjectMap;
     rml:reference "label";
     rr:termType rr:Literal.
-map:om_17 a rr:ObjectMap;
+map:om_017 a rr:ObjectMap;
     rr:constant "http://purl.org/ontology/fo/Cuisine";
     rr:termType rr:IRI.
-map:om_2 a rr:ObjectMap;
-    rr:constant "Spiciness level of an ingredient (float)";
-    rr:termType rr:Literal.
-map:om_3 a rr:ObjectMap;
-    rr:constant "http://purl.org/ontology/fo/Ingredient";
-    rr:termType rr:IRI.
-map:om_4 a rr:ObjectMap;
-    rr:constant "http://www.w3.org/2001/XMLSchema#Double";
-    rr:termType rr:IRI.
-map:om_5 a rr:ObjectMap;
-    rr:constant "http://purl.org/ontology/fo/Recipe";
-    rr:termType rr:IRI.
-map:om_6 a rr:ObjectMap;
-    rml:reference "recipeName";
-    rr:termType rr:Literal.
-map:om_7 a rr:ObjectMap;
-    rml:reference "id";
-    rr:termType rr:Literal.
-map:om_8 a rr:ObjectMap;
-    rr:template "https://w3id.org/um/ken4256/cuisine/{attributes.cuisine}";
-    rr:termType rr:IRI.
-map:om_9 a rr:ObjectMap;
-    rr:template "https://w3id.org/um/ken4256/ingredient/{ingredients}";
-    rr:termType rr:IRI.
-map:pm_0 a rr:PredicateMap;
+map:pm_000 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_1 a rr:PredicateMap;
+map:pm_001 a rr:PredicateMap;
     rr:constant rdfs:label.
-map:pm_10 a rr:PredicateMap;
-    rr:constant <http://purl.org/ontology/fo/cookingTime>.
-map:pm_11 a rr:PredicateMap;
-    rr:constant <http://purl.org/ontology/fo/course>.
-map:pm_12 a rr:PredicateMap;
-    rr:constant <http://purl.org/ontology/fo/rating>.
-map:pm_13 a rr:PredicateMap;
-    rr:constant <https://w3id.org/um/ken4256/ontology/spiciness>.
-map:pm_14 a rr:PredicateMap;
-    rr:constant rdfs:label.
-map:pm_15 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_16 a rr:PredicateMap;
-    rr:constant rdfs:label.
-map:pm_17 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_2 a rr:PredicateMap;
+map:pm_002 a rr:PredicateMap;
     rr:constant rdfs:comment.
-map:pm_3 a rr:PredicateMap;
+map:pm_003 a rr:PredicateMap;
     rr:constant rdfs:domain.
-map:pm_4 a rr:PredicateMap;
+map:pm_004 a rr:PredicateMap;
     rr:constant rdfs:range.
-map:pm_5 a rr:PredicateMap;
+map:pm_005 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_6 a rr:PredicateMap;
+map:pm_006 a rr:PredicateMap;
     rr:constant rdfs:label.
-map:pm_7 a rr:PredicateMap;
+map:pm_007 a rr:PredicateMap;
     rr:constant <http://purl.org/dc/elements/1.1/identifier>.
-map:pm_8 a rr:PredicateMap;
+map:pm_008 a rr:PredicateMap;
     rr:constant <http://purl.org/ontology/fo/cuisine>.
-map:pm_9 a rr:PredicateMap;
+map:pm_009 a rr:PredicateMap;
     rr:constant <http://purl.org/ontology/fo/ingredients>.
-map:pom_0 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_0;
-    rr:objectMap map:om_0.
-map:pom_1 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_1;
-    rr:objectMap map:om_1.
-map:pom_10 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_10;
-    rr:objectMap map:om_10.
-map:pom_11 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_11;
-    rr:objectMap map:om_11.
-map:pom_12 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_12;
-    rr:objectMap map:om_12.
-map:pom_13 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_13;
-    rr:objectMap map:om_13.
-map:pom_14 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_14;
-    rr:objectMap map:om_14.
-map:pom_15 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_15;
-    rr:objectMap map:om_15.
-map:pom_16 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_16;
-    rr:objectMap map:om_16.
-map:pom_17 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_17;
-    rr:objectMap map:om_17.
-map:pom_2 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_2;
-    rr:objectMap map:om_2.
-map:pom_3 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_3;
-    rr:objectMap map:om_3.
-map:pom_4 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_4;
-    rr:objectMap map:om_4.
-map:pom_5 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_5;
-    rr:objectMap map:om_5.
-map:pom_6 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_6;
-    rr:objectMap map:om_6.
-map:pom_7 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_7;
-    rr:objectMap map:om_7.
-map:pom_8 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_8;
-    rr:objectMap map:om_8.
-map:pom_9 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_9;
-    rr:objectMap map:om_9.
-map:s_0 a rr:SubjectMap;
+map:pm_010 a rr:PredicateMap;
+    rr:constant <http://purl.org/ontology/fo/cookingTime>.
+map:pm_011 a rr:PredicateMap;
+    rr:constant <http://purl.org/ontology/fo/course>.
+map:pm_012 a rr:PredicateMap;
+    rr:constant <http://purl.org/ontology/fo/rating>.
+map:pm_013 a rr:PredicateMap;
+    rr:constant <https://w3id.org/um/ken4256/ontology/spiciness>.
+map:pm_014 a rr:PredicateMap;
+    rr:constant rdfs:label.
+map:pm_015 a rr:PredicateMap;
+    rr:constant rdf:type.
+map:pm_016 a rr:PredicateMap;
+    rr:constant rdfs:label.
+map:pm_017 a rr:PredicateMap;
+    rr:constant rdf:type.
+map:pom_000 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_000;
+    rr:objectMap map:om_000.
+map:pom_001 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_001;
+    rr:objectMap map:om_001.
+map:pom_002 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_002;
+    rr:objectMap map:om_002.
+map:pom_003 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_003;
+    rr:objectMap map:om_003.
+map:pom_004 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_004;
+    rr:objectMap map:om_004.
+map:pom_005 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_005;
+    rr:objectMap map:om_005.
+map:pom_006 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_006;
+    rr:objectMap map:om_006.
+map:pom_007 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_007;
+    rr:objectMap map:om_007.
+map:pom_008 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_008;
+    rr:objectMap map:om_008.
+map:pom_009 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_009;
+    rr:objectMap map:om_009.
+map:pom_010 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_010;
+    rr:objectMap map:om_010.
+map:pom_011 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_011;
+    rr:objectMap map:om_011.
+map:pom_012 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_012;
+    rr:objectMap map:om_012.
+map:pom_013 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_013;
+    rr:objectMap map:om_013.
+map:pom_014 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_014;
+    rr:objectMap map:om_014.
+map:pom_015 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_015;
+    rr:objectMap map:om_015.
+map:pom_016 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_016;
+    rr:objectMap map:om_016.
+map:pom_017 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_017;
+    rr:objectMap map:om_017.
+map:rules_000 a <http://rdfs.org/ns/void#Dataset>;
+    <http://rdfs.org/ns/void#exampleResource> map:map_spiciness_000, map:map_recipes_000, map:map_ingredients_000, map:map_cuisines_000.
+map:s_000 a rr:SubjectMap;
     rr:constant "https://w3id.org/um/ken4256/ontology/spiciness".
-map:s_1 a rr:SubjectMap;
+map:s_001 a rr:SubjectMap;
     rr:template "https://w3id.org/um/ken4256/recipe/{id}".
-map:s_2 a rr:SubjectMap;
+map:s_002 a rr:SubjectMap;
     rr:template "https://w3id.org/um/ken4256/ingredient/{id}".
-map:s_3 a rr:SubjectMap;
-    rr:template "https://w3id.org/um/ken4256/ingredient/{label}".
-map:source_0 a rml:LogicalSource;
+map:s_003 a rr:SubjectMap;
+    rr:template "https://w3id.org/um/ken4256/cuisine/{label}".
+map:source_000 a rml:LogicalSource;
     rml:source "all_recipes.json";
     rml:iterator "$";
     rml:referenceFormulation ql:JSONPath.
-map:source_1 a rml:LogicalSource;
+map:source_001 a rml:LogicalSource;
     rml:source "all_recipes.json";
     rml:iterator "$.recipes[*]";
     rml:referenceFormulation ql:JSONPath.
-map:source_2 a rml:LogicalSource;
+map:source_002 a rml:LogicalSource;
     rml:source "all_recipes.json";
     rml:iterator "$.ingredients[*]";
     rml:referenceFormulation ql:JSONPath.
-map:source_3 a rml:LogicalSource;
+map:source_003 a rml:LogicalSource;
     rml:source "all_recipes.json";
     rml:iterator "$.cuisines[*]";
     rml:referenceFormulation ql:JSONPath.

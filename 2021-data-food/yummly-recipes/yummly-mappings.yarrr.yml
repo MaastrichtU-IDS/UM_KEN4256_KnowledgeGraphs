@@ -48,7 +48,7 @@ mappings:
   cuisines:
     sources:
       - ['all_recipes.json~jsonpath', "$.cuisines[*]"]
-    s: ken:ingredient/$(label)
+    s: ken:cuisine/$(label)
     po:
       - [rdfs:label, $(label)]
       - [a, fo:Cuisine]
