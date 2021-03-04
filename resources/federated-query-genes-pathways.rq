@@ -1,5 +1,5 @@
-#+ summary: Federated query to get pathways of genes
-#+ description: Use a federated SPARQL query to get pathways (from WikiPathways) for Genes in the kg-covid-19 knowledge graph (from the Translator project)
+#+ summary: Federated query to get pathways of genes. A biological pathway is a series of interactions among molecules in a cell that leads to a certain product or a change in a cell. A gene is a basic unit of heredity and a sequence of nucleotides in DNA or RNA that encodes the synthesis of a gene product, either RNA or protein. Biological pathways can turn genes on or off (activate or deactivate their influence).
+#+ description: A SPARQL SELECT query which makes use of the SERVICE keyword (i.e., a federated SPARQL query) to obtain a list of biological pathways (from the WikiPathways knowledge graph) for genes in the kg-covid-19 knowledge graph (from the NCATS Translator project)
 #+ endpoint: http://sparql.wikipathways.org/sparql
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -11,9 +11,11 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX bl: <https://w3id.org/biolink/vocab/>
 PREFIX up: <http://purl.uniprot.org/core/>
+
 # To run on  http://sparql.wikipathways.org/sparql
 SELECT ?gene ?geneLabel ?pathway ?pathwayLabel
 WHERE {
+	# External knowledge graph - the kg-covid-19 knowledge graph
     SERVICE <http://kg-hub-rdf.berkeleybop.io/blazegraph/sparql> {
         SELECT * WHERE {
             ?gene bl:category bl:Gene ;
