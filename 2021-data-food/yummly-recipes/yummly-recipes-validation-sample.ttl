@@ -1,0 +1,782 @@
+@prefix map: <http://mapping.example.com/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix fo: <http://purl.org/ontology/fo/> .
+
+<https://w3id.org/um/ken4256/cuisine/American> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "American" .
+
+<https://w3id.org/um/ken4256/cuisine/Asian> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Asian" .
+
+<https://w3id.org/um/ken4256/cuisine/Barbecue> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Barbecue" .
+
+<https://w3id.org/um/ken4256/cuisine/Chinese> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Chinese" .
+
+<https://w3id.org/um/ken4256/cuisine/Cuban> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Cuban" .
+
+<https://w3id.org/um/ken4256/cuisine/English> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "English" .
+
+<https://w3id.org/um/ken4256/cuisine/French> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "French" .
+
+<https://w3id.org/um/ken4256/cuisine/German> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "German" .
+
+<https://w3id.org/um/ken4256/cuisine/Greek> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Greek" .
+
+<https://w3id.org/um/ken4256/cuisine/Hawaiian> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Hawaiian" .
+
+<https://w3id.org/um/ken4256/cuisine/Hungarian> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Hungarian" .
+
+<https://w3id.org/um/ken4256/cuisine/Indian> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Indian" .
+
+<https://w3id.org/um/ken4256/cuisine/Irish> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Irish" .
+
+<https://w3id.org/um/ken4256/cuisine/Italian> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Italian" .
+
+<https://w3id.org/um/ken4256/cuisine/Japanese> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Japanese" .
+
+<https://w3id.org/um/ken4256/cuisine/Kid-Friendly> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Kid-Friendly" .
+
+<https://w3id.org/um/ken4256/cuisine/Mexican> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Mexican" .
+
+<https://w3id.org/um/ken4256/cuisine/Moroccan> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Moroccan" .
+
+<https://w3id.org/um/ken4256/cuisine/Portuguese> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Portuguese" .
+
+<https://w3id.org/um/ken4256/cuisine/Southwestern> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Southwestern" .
+
+<https://w3id.org/um/ken4256/cuisine/Spanish> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Spanish" .
+
+<https://w3id.org/um/ken4256/cuisine/Swedish> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Swedish" .
+
+<https://w3id.org/um/ken4256/cuisine/Thai> a <http://purl.org/ontology/fo/Cuisine>;
+  rdfs:label "Thai" .
+
+<https://w3id.org/um/ken4256/ingredient/Thai_fish_sauce> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "Thai fish sauce" .
+
+<https://w3id.org/um/ken4256/ingredient/balsamic_vinegar> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "balsamic vinegar" .
+
+<https://w3id.org/um/ken4256/ingredient/bananas> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "bananas" .
+
+<https://w3id.org/um/ken4256/ingredient/bay_leaf> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "bay leaf" .
+
+<https://w3id.org/um/ken4256/ingredient/beaten_eggs> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "beaten eggs" .
+
+<https://w3id.org/um/ken4256/ingredient/beef> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "beef" .
+
+<https://w3id.org/um/ken4256/ingredient/beef_broth> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "beef broth" .
+
+<https://w3id.org/um/ken4256/ingredient/beef_tenderloin_steaks> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "beef tenderloin steaks" .
+
+<https://w3id.org/um/ken4256/ingredient/black_beans> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "black beans" .
+
+<https://w3id.org/um/ken4256/ingredient/black_pepper> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "black pepper" .
+
+<https://w3id.org/um/ken4256/ingredient/boneless_chicken_breast> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "boneless chicken breast" .
+
+<https://w3id.org/um/ken4256/ingredient/boneless_skinless_chicken_breasts> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "boneless skinless chicken breasts" .
+
+<https://w3id.org/um/ken4256/ingredient/bread_crumbs> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "bread crumbs" .
+
+<https://w3id.org/um/ken4256/ingredient/broccolini> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "broccolini" .
+
+<https://w3id.org/um/ken4256/ingredient/brown_sugar> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "brown sugar" .
+
+<https://w3id.org/um/ken4256/ingredient/butter> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "butter" .
+
+<https://w3id.org/um/ken4256/ingredient/canola_oil> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "canola oil" .
+
+<https://w3id.org/um/ken4256/ingredient/carrots> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "carrots" .
+
+<https://w3id.org/um/ken4256/ingredient/cayenne_pepper> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "cayenne pepper" .
+
+<https://w3id.org/um/ken4256/ingredient/celery_ribs> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "celery ribs" .
+
+<https://w3id.org/um/ken4256/ingredient/chili_paste> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "chili paste" .
+
+<https://w3id.org/um/ken4256/ingredient/chili_powder> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "chili powder" .
+
+<https://w3id.org/um/ken4256/ingredient/chopped_cilantro> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "chopped cilantro" .
+
+<https://w3id.org/um/ken4256/ingredient/chorizo_sausage> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "chorizo sausage" .
+
+<https://w3id.org/um/ken4256/ingredient/cinnamon> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "cinnamon" .
+
+<https://w3id.org/um/ken4256/ingredient/coarse_salt> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "coarse salt" .
+
+<https://w3id.org/um/ken4256/ingredient/coconut_milk> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "coconut milk" .
+
+<https://w3id.org/um/ken4256/ingredient/coconut_oil> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "coconut oil" .
+
+<https://w3id.org/um/ken4256/ingredient/cognac> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "cognac" .
+
+<https://w3id.org/um/ken4256/ingredient/cooked_chicken> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "cooked chicken" .
+
+<https://w3id.org/um/ken4256/ingredient/cooked_rice> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "cooked rice" .
+
+<https://w3id.org/um/ken4256/ingredient/corn_tortillas> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "corn tortillas" .
+
+<https://w3id.org/um/ken4256/ingredient/crimini_mushrooms> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "crimini mushrooms" .
+
+<https://w3id.org/um/ken4256/ingredient/cumin> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "cumin" .
+
+<https://w3id.org/um/ken4256/ingredient/curry_powder> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "curry powder" .
+
+<https://w3id.org/um/ken4256/ingredient/diced_tomatoes> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "diced tomatoes" .
+
+<https://w3id.org/um/ken4256/ingredient/dijon_mustard> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "dijon mustard" .
+
+<https://w3id.org/um/ken4256/ingredient/dried_chile> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "dried chile" .
+
+<https://w3id.org/um/ken4256/ingredient/dried_pasta> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "dried pasta" .
+
+<https://w3id.org/um/ken4256/ingredient/eggs> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "eggs" .
+
+<https://w3id.org/um/ken4256/ingredient/extra-virgin_olive_oil> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "extra-virgin olive oil" .
+
+<https://w3id.org/um/ken4256/ingredient/extra_large_shrimp> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "extra large shrimp" .
+
+<https://w3id.org/um/ken4256/ingredient/feta_cheese> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "feta cheese" .
+
+<https://w3id.org/um/ken4256/ingredient/fish_fillets> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "fish fillets" .
+
+<https://w3id.org/um/ken4256/ingredient/fish_stock> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "fish stock" .
+
+<https://w3id.org/um/ken4256/ingredient/flour> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "flour" .
+
+<https://w3id.org/um/ken4256/ingredient/fresh_cilantro> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "fresh cilantro" .
+
+<https://w3id.org/um/ken4256/ingredient/fresh_coriander> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "fresh coriander" .
+
+<https://w3id.org/um/ken4256/ingredient/fresh_ginger> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "fresh ginger" .
+
+<https://w3id.org/um/ken4256/ingredient/fresh_lime_juice> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "fresh lime juice" .
+
+<https://w3id.org/um/ken4256/ingredient/fresh_parsley> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "fresh parsley" .
+
+<https://w3id.org/um/ken4256/ingredient/frozen_edamame_beans> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "frozen edamame beans" .
+
+<https://w3id.org/um/ken4256/ingredient/frozen_vegetables> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "frozen vegetables" .
+
+<https://w3id.org/um/ken4256/ingredient/garlic> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "garlic" .
+
+<https://w3id.org/um/ken4256/ingredient/garlic_cloves> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "garlic cloves" .
+
+<https://w3id.org/um/ken4256/ingredient/garlic_puree> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "garlic puree" .
+
+<https://w3id.org/um/ken4256/ingredient/ginger_root> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "ginger root" .
+
+<https://w3id.org/um/ken4256/ingredient/gold_potatoes> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "gold potatoes" .
+
+<https://w3id.org/um/ken4256/ingredient/green_onions> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "green onions" .
+
+<https://w3id.org/um/ken4256/ingredient/ground_allspice> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "ground allspice" .
+
+<https://w3id.org/um/ken4256/ingredient/ground_beef> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "ground beef" .
+
+<https://w3id.org/um/ken4256/ingredient/ground_cardamom> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "ground cardamom" .
+
+<https://w3id.org/um/ken4256/ingredient/ground_cinnamon> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "ground cinnamon" .
+
+<https://w3id.org/um/ken4256/ingredient/ground_coriander> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "ground coriander" .
+
+<https://w3id.org/um/ken4256/ingredient/ground_ginger> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "ground ginger" .
+
+<https://w3id.org/um/ken4256/ingredient/ground_pepper> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "ground pepper" .
+
+<https://w3id.org/um/ken4256/ingredient/haricots_verts> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "haricots verts" .
+
+<https://w3id.org/um/ken4256/ingredient/heavy_cream> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "heavy cream" .
+
+<https://w3id.org/um/ken4256/ingredient/herbs> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "herbs" .
+
+<https://w3id.org/um/ken4256/ingredient/honey> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "honey" .
+
+<https://w3id.org/um/ken4256/ingredient/hungarian_paprika> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "hungarian paprika" .
+
+<https://w3id.org/um/ken4256/ingredient/ketchup> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "ketchup" .
+
+<https://w3id.org/um/ken4256/ingredient/large_eggs> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "large eggs" .
+
+<https://w3id.org/um/ken4256/ingredient/lean_ground_beef> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "lean ground beef" .
+
+<https://w3id.org/um/ken4256/ingredient/leg_of_lamb> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "leg of lamb" .
+
+<https://w3id.org/um/ken4256/ingredient/lemon> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "lemon" .
+
+<https://w3id.org/um/ken4256/ingredient/lemon_juice> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "lemon juice" .
+
+<https://w3id.org/um/ken4256/ingredient/lemon_wedges> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "lemon wedges" .
+
+<https://w3id.org/um/ken4256/ingredient/lime> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "lime" .
+
+<https://w3id.org/um/ken4256/ingredient/lime_juice> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "lime juice" .
+
+<https://w3id.org/um/ken4256/ingredient/lobster_tails> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "lobster tails" .
+
+<https://w3id.org/um/ken4256/ingredient/low_sodium_soy_sauce> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "low sodium soy sauce" .
+
+<https://w3id.org/um/ken4256/ingredient/mango> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "mango" .
+
+<https://w3id.org/um/ken4256/ingredient/mild_olive_oil> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "mild olive oil" .
+
+<https://w3id.org/um/ken4256/ingredient/milk> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "milk" .
+
+<https://w3id.org/um/ken4256/ingredient/minced_garlic> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "minced garlic" .
+
+<https://w3id.org/um/ken4256/ingredient/mint_leaves> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "mint leaves" .
+
+<https://w3id.org/um/ken4256/ingredient/new_potatoes> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "new potatoes" .
+
+<https://w3id.org/um/ken4256/ingredient/olive_oil> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "olive oil" .
+
+<https://w3id.org/um/ken4256/ingredient/onions> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "onions" .
+
+<https://w3id.org/um/ken4256/ingredient/orange_juice> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "orange juice" .
+
+<https://w3id.org/um/ken4256/ingredient/oregano> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "oregano" .
+
+<https://w3id.org/um/ken4256/ingredient/panko_breadcrumbs> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "panko breadcrumbs" .
+
+<https://w3id.org/um/ken4256/ingredient/paprika> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "paprika" .
+
+<https://w3id.org/um/ken4256/ingredient/peanut_oil> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "peanut oil" .
+
+<https://w3id.org/um/ken4256/ingredient/pearl_onions> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "pearl onions" .
+
+<https://w3id.org/um/ken4256/ingredient/pepper> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "pepper" .
+
+<https://w3id.org/um/ken4256/ingredient/pepper_flakes> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "pepper flakes" .
+
+<https://w3id.org/um/ken4256/ingredient/pineapple_slices> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "pineapple slices" .
+
+<https://w3id.org/um/ken4256/ingredient/plum_tomatoes> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "plum tomatoes" .
+
+<https://w3id.org/um/ken4256/ingredient/pork_chops%2C_1_inch_thick> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "pork chops, 1 inch thick" .
+
+<https://w3id.org/um/ken4256/ingredient/pork_tenderloin> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "pork tenderloin" .
+
+<https://w3id.org/um/ken4256/ingredient/potatoes> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "potatoes" .
+
+<https://w3id.org/um/ken4256/ingredient/prawns> a <http://purl.org/ontology/fo/Ingredient>;
+  rdf:label "prawns" .
+
+<https://w3id.org/um/ken4256/ingredient/quinoa> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "quinoa" .
+
+<https://w3id.org/um/ken4256/ingredient/red_chili_peppers> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "red chili peppers" .
+
+<https://w3id.org/um/ken4256/ingredient/red_onion> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "red onion" .
+
+<https://w3id.org/um/ken4256/ingredient/red_pepper> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "red pepper" .
+
+<https://w3id.org/um/ken4256/ingredient/red_wine> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "red wine" .
+
+<https://w3id.org/um/ken4256/ingredient/roasted_cashews> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "roasted cashews" .
+
+<https://w3id.org/um/ken4256/ingredient/roma_tomatoes> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "roma tomatoes" .
+
+<https://w3id.org/um/ken4256/ingredient/rosemary> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "rosemary" .
+
+<https://w3id.org/um/ken4256/ingredient/saffron_threads> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "saffron threads" .
+
+<https://w3id.org/um/ken4256/ingredient/sake> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "sake" .
+
+<https://w3id.org/um/ken4256/ingredient/salmon> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "salmon" .
+
+<https://w3id.org/um/ken4256/ingredient/salt> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "salt" .
+
+<https://w3id.org/um/ken4256/ingredient/savoy_cabbage> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "savoy cabbage" .
+
+<https://w3id.org/um/ken4256/ingredient/sea_salt> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "sea salt" .
+
+<https://w3id.org/um/ken4256/ingredient/sesame_oil> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "sesame oil" .
+
+<https://w3id.org/um/ken4256/ingredient/shallots> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "shallots" .
+
+<https://w3id.org/um/ken4256/ingredient/shredded_cheddar_cheese> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "shredded cheddar cheese" .
+
+<https://w3id.org/um/ken4256/ingredient/sliced_green_onions> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "sliced green onions" .
+
+<https://w3id.org/um/ken4256/ingredient/soba_noodles> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "soba noodles" .
+
+<https://w3id.org/um/ken4256/ingredient/soy_sauce> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "soy sauce" .
+
+<https://w3id.org/um/ken4256/ingredient/spanish_rice> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "spanish rice" .
+
+<https://w3id.org/um/ken4256/ingredient/splenda> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "splenda" .
+
+<https://w3id.org/um/ken4256/ingredient/stevia> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "stevia" .
+
+<https://w3id.org/um/ken4256/ingredient/stewing_beef> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "stewing beef" .
+
+<https://w3id.org/um/ken4256/ingredient/sugar> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "sugar" .
+
+<https://w3id.org/um/ken4256/ingredient/table_wine> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "table wine" .
+
+<https://w3id.org/um/ken4256/ingredient/thyme> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "thyme" .
+
+<https://w3id.org/um/ken4256/ingredient/thyme_leaves> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "thyme leaves" .
+
+<https://w3id.org/um/ken4256/ingredient/toasted_sesame_seeds> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "toasted sesame seeds" .
+
+<https://w3id.org/um/ken4256/ingredient/turkey_breakfast_sausage> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "turkey breakfast sausage" .
+
+<https://w3id.org/um/ken4256/ingredient/turmeric> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "turmeric" .
+
+<https://w3id.org/um/ken4256/ingredient/vegetable_oil> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "vegetable oil" .
+
+<https://w3id.org/um/ken4256/ingredient/water> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "water" .
+
+<https://w3id.org/um/ken4256/ingredient/white_pepper> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "white pepper" .
+
+<https://w3id.org/um/ken4256/ingredient/white_wine> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "white wine" .
+
+<https://w3id.org/um/ken4256/ingredient/whole_peppercorn> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "whole peppercorn" .
+
+<https://w3id.org/um/ken4256/ingredient/yellow_onion> a <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "yellow onion" .
+
+<https://w3id.org/um/ken4256/ontology/spiciness> a <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+  rdfs:comment "Spiciness level of an ingredient (float)";
+  rdfs:domain <http://purl.org/ontology/fo/Ingredient>;
+  rdfs:label "Spiciness";
+  rdfs:range <http://www.w3.org/2001/XMLSchema#Double> .
+
+<https://w3id.org/um/ken4256/recipe/Better-Than-Takeout-Chinese-Fried-Rice-2104328>
+  a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Better-Than-Takeout-Chinese-Fried-Rice-2104328";
+  <http://purl.org/ontology/fo/cookingTime> 1800;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Chinese>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/cooked_chicken>,
+    <https://w3id.org/um/ken4256/ingredient/cooked_rice>, <https://w3id.org/um/ken4256/ingredient/eggs>,
+    <https://w3id.org/um/ken4256/ingredient/frozen_vegetables>, <https://w3id.org/um/ken4256/ingredient/soy_sauce>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Better Than Takeout Chinese Fried Rice";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 0.0E0 .
+
+<https://w3id.org/um/ken4256/recipe/Brown-sugar-meatloaf-368833> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Brown-sugar-meatloaf-368833";
+  <http://purl.org/ontology/fo/cookingTime> 1800;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/English>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/beaten_eggs>,
+    <https://w3id.org/um/ken4256/ingredient/bread_crumbs>, <https://w3id.org/um/ken4256/ingredient/brown_sugar>,
+    <https://w3id.org/um/ken4256/ingredient/ground_beef>, <https://w3id.org/um/ken4256/ingredient/ketchup>,
+    <https://w3id.org/um/ken4256/ingredient/milk>, <https://w3id.org/um/ken4256/ingredient/onions>;
+  <http://purl.org/ontology/fo/rating> 5;
+  rdfs:label "Brown Sugar Meatloaf";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 0.0E0 .
+
+<https://w3id.org/um/ken4256/recipe/Coconut-Shrimp-Curry-2243478> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Coconut-Shrimp-Curry-2243478";
+  <http://purl.org/ontology/fo/cookingTime> 1500;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Indian>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/black_pepper>,
+    <https://w3id.org/um/ken4256/ingredient/cayenne_pepper>, <https://w3id.org/um/ken4256/ingredient/coconut_milk>,
+    <https://w3id.org/um/ken4256/ingredient/coconut_oil>, <https://w3id.org/um/ken4256/ingredient/cooked_rice>,
+    <https://w3id.org/um/ken4256/ingredient/curry_powder>, <https://w3id.org/um/ken4256/ingredient/diced_tomatoes>,
+    <https://w3id.org/um/ken4256/ingredient/extra_large_shrimp>, <https://w3id.org/um/ken4256/ingredient/fresh_cilantro>,
+    <https://w3id.org/um/ken4256/ingredient/fresh_ginger>, <https://w3id.org/um/ken4256/ingredient/garlic>,
+    <https://w3id.org/um/ken4256/ingredient/ground_coriander>, <https://w3id.org/um/ken4256/ingredient/lemon_juice>,
+    <https://w3id.org/um/ken4256/ingredient/onions>, <https://w3id.org/um/ken4256/ingredient/salt>,
+    <https://w3id.org/um/ken4256/ingredient/turmeric>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Coconut Shrimp Curry";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 3.333333333333333E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Crispy-Black-Bean-_-Feta-Tacos-1850691> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Crispy-Black-Bean-_-Feta-Tacos-1850691";
+  <http://purl.org/ontology/fo/cookingTime> 1500;
+  <http://purl.org/ontology/fo/course> "Lunch", "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Mexican>,
+    <https://w3id.org/um/ken4256/cuisine/Southwestern>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/black_beans>,
+    <https://w3id.org/um/ken4256/ingredient/canola_oil>, <https://w3id.org/um/ken4256/ingredient/chili_powder>,
+    <https://w3id.org/um/ken4256/ingredient/chopped_cilantro>, <https://w3id.org/um/ken4256/ingredient/corn_tortillas>,
+    <https://w3id.org/um/ken4256/ingredient/cumin>, <https://w3id.org/um/ken4256/ingredient/feta_cheese>,
+    <https://w3id.org/um/ken4256/ingredient/lime_juice>, <https://w3id.org/um/ken4256/ingredient/red_onion>,
+    <https://w3id.org/um/ken4256/ingredient/salt>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Crispy Black Bean + Feta Tacos";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 5.0E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Cuban-Chicken-and-Black-Bean-Quinoa-Bowls-with-Fried-Chili-Spiced-Bananas-_-Spicy-Mangos_-2072844>
+  a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Cuban-Chicken-and-Black-Bean-Quinoa-Bowls-with-Fried-Chili-Spiced-Bananas-_-Spicy-Mangos_-2072844";
+  <http://purl.org/ontology/fo/cookingTime> 3600;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Cuban>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/bananas>,
+    <https://w3id.org/um/ken4256/ingredient/black_beans>, <https://w3id.org/um/ken4256/ingredient/boneless_chicken_breast>,
+    <https://w3id.org/um/ken4256/ingredient/butter>, <https://w3id.org/um/ken4256/ingredient/coconut_oil>,
+    <https://w3id.org/um/ken4256/ingredient/cumin>, <https://w3id.org/um/ken4256/ingredient/fresh_cilantro>,
+    <https://w3id.org/um/ken4256/ingredient/garlic>, <https://w3id.org/um/ken4256/ingredient/honey>,
+    <https://w3id.org/um/ken4256/ingredient/lime>, <https://w3id.org/um/ken4256/ingredient/lime_juice>,
+    <https://w3id.org/um/ken4256/ingredient/mango>, <https://w3id.org/um/ken4256/ingredient/olive_oil>,
+    <https://w3id.org/um/ken4256/ingredient/onions>, <https://w3id.org/um/ken4256/ingredient/orange_juice>,
+    <https://w3id.org/um/ken4256/ingredient/pepper>, <https://w3id.org/um/ken4256/ingredient/quinoa>,
+    <https://w3id.org/um/ken4256/ingredient/red_chili_peppers>, <https://w3id.org/um/ken4256/ingredient/red_pepper>,
+    <https://w3id.org/um/ken4256/ingredient/salt>, <https://w3id.org/um/ken4256/ingredient/soy_sauce>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Cuban Chicken and Black Bean Quinoa Bowls with Fried Chili Spiced Bananas + Spicy Mangos.";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 8.333333333333334E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Easy-Seafood-Paella-2077829> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Easy-Seafood-Paella-2077829";
+  <http://purl.org/ontology/fo/cookingTime> 3600;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Spanish>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/cayenne_pepper>,
+    <https://w3id.org/um/ken4256/ingredient/fresh_parsley>, <https://w3id.org/um/ken4256/ingredient/garlic_cloves>,
+    <https://w3id.org/um/ken4256/ingredient/haricots_verts>, <https://w3id.org/um/ken4256/ingredient/lobster_tails>,
+    <https://w3id.org/um/ken4256/ingredient/olive_oil>, <https://w3id.org/um/ken4256/ingredient/paprika>,
+    <https://w3id.org/um/ken4256/ingredient/pepper_flakes>, <https://w3id.org/um/ken4256/ingredient/prawns>,
+    <https://w3id.org/um/ken4256/ingredient/roma_tomatoes>, <https://w3id.org/um/ken4256/ingredient/saffron_threads>,
+    <https://w3id.org/um/ken4256/ingredient/salt>, <https://w3id.org/um/ken4256/ingredient/spanish_rice>,
+    <https://w3id.org/um/ken4256/ingredient/water>, <https://w3id.org/um/ken4256/ingredient/yellow_onion>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Easy Seafood Paella";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 6.666666666666666E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Greek-style-roast-leg-of-lamb-with-lemon-roasted-potatoes-351156>
+  a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Greek-style-roast-leg-of-lamb-with-lemon-roasted-potatoes-351156";
+  <http://purl.org/ontology/fo/cookingTime> 11700;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Greek>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/dijon_mustard>,
+    <https://w3id.org/um/ken4256/ingredient/garlic>, <https://w3id.org/um/ken4256/ingredient/leg_of_lamb>,
+    <https://w3id.org/um/ken4256/ingredient/lemon>, <https://w3id.org/um/ken4256/ingredient/olive_oil>,
+    <https://w3id.org/um/ken4256/ingredient/oregano>, <https://w3id.org/um/ken4256/ingredient/paprika>,
+    <https://w3id.org/um/ken4256/ingredient/pepper>, <https://w3id.org/um/ken4256/ingredient/potatoes>,
+    <https://w3id.org/um/ken4256/ingredient/rosemary>, <https://w3id.org/um/ken4256/ingredient/salt>,
+    <https://w3id.org/um/ken4256/ingredient/sea_salt>, <https://w3id.org/um/ken4256/ingredient/thyme>;
+  <http://purl.org/ontology/fo/rating> 5;
+  rdfs:label "Greek Style Roast Leg of Lamb with Lemon Roasted Potatoes";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 1.6666666666666666E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Hawaiian-Pork-Chops-2215375> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Hawaiian-Pork-Chops-2215375";
+  <http://purl.org/ontology/fo/cookingTime> 3000;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Barbecue>,
+    <https://w3id.org/um/ken4256/cuisine/Hawaiian>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/brown_sugar>,
+    <https://w3id.org/um/ken4256/ingredient/garlic>, <https://w3id.org/um/ken4256/ingredient/onions>,
+    <https://w3id.org/um/ken4256/ingredient/pineapple_slices>, <https://w3id.org/um/ken4256/ingredient/pork_chops%2C_1_inch_thick>,
+    <https://w3id.org/um/ken4256/ingredient/soy_sauce>, <https://w3id.org/um/ken4256/ingredient/vegetable_oil>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Hawaiian Pork Chops" .
+
+<https://w3id.org/um/ken4256/recipe/Hungarian-Goulash-1975672> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Hungarian-Goulash-1975672";
+  <http://purl.org/ontology/fo/cookingTime> 4800;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Hungarian>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/bay_leaf>,
+    <https://w3id.org/um/ken4256/ingredient/beef_broth>, <https://w3id.org/um/ken4256/ingredient/flour>,
+    <https://w3id.org/um/ken4256/ingredient/garlic>, <https://w3id.org/um/ken4256/ingredient/hungarian_paprika>,
+    <https://w3id.org/um/ken4256/ingredient/onions>, <https://w3id.org/um/ken4256/ingredient/red_wine>,
+    <https://w3id.org/um/ken4256/ingredient/salt>, <https://w3id.org/um/ken4256/ingredient/stewing_beef>,
+    <https://w3id.org/um/ken4256/ingredient/thyme_leaves>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Hungarian Goulash";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 3.333333333333333E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Karina_s-Irish-Beef-Stew-2250417> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Karina_s-Irish-Beef-Stew-2250417";
+  <http://purl.org/ontology/fo/cookingTime> 4200;
+  <http://purl.org/ontology/fo/course> "Main Dishes", "Soups";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Irish>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/balsamic_vinegar>,
+    <https://w3id.org/um/ken4256/ingredient/bay_leaf>, <https://w3id.org/um/ken4256/ingredient/beef>,
+    <https://w3id.org/um/ken4256/ingredient/beef_broth>, <https://w3id.org/um/ken4256/ingredient/carrots>,
+    <https://w3id.org/um/ken4256/ingredient/celery_ribs>, <https://w3id.org/um/ken4256/ingredient/garlic>,
+    <https://w3id.org/um/ken4256/ingredient/gold_potatoes>, <https://w3id.org/um/ken4256/ingredient/ground_pepper>,
+    <https://w3id.org/um/ken4256/ingredient/herbs>, <https://w3id.org/um/ken4256/ingredient/mild_olive_oil>,
+    <https://w3id.org/um/ken4256/ingredient/pearl_onions>, <https://w3id.org/um/ken4256/ingredient/sea_salt>,
+    <https://w3id.org/um/ken4256/ingredient/table_wine>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Karina's Irish Beef Stew";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 1.6666666666666666E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Low-Carb-Baked-Swedish-Meatballs-2219413> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Low-Carb-Baked-Swedish-Meatballs-2219413";
+  <http://purl.org/ontology/fo/cookingTime> 3000;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Swedish>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/garlic_puree>,
+    <https://w3id.org/um/ken4256/ingredient/ground_allspice>, <https://w3id.org/um/ken4256/ingredient/ground_cardamom>,
+    <https://w3id.org/um/ken4256/ingredient/ground_cinnamon>, <https://w3id.org/um/ken4256/ingredient/ground_ginger>,
+    <https://w3id.org/um/ken4256/ingredient/lean_ground_beef>, <https://w3id.org/um/ken4256/ingredient/onions>,
+    <https://w3id.org/um/ken4256/ingredient/salt>, <https://w3id.org/um/ken4256/ingredient/turkey_breakfast_sausage>,
+    <https://w3id.org/um/ken4256/ingredient/white_pepper>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Low-Carb Baked Swedish Meatballs";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 1.6666666666666666E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Mark-bittman_s-ginger-chicken-336035> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Mark-bittman_s-ginger-chicken-336035";
+  <http://purl.org/ontology/fo/cookingTime> 1500;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Asian>,
+    <https://w3id.org/um/ken4256/cuisine/Chinese>, <https://w3id.org/um/ken4256/cuisine/Thai>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/Thai_fish_sauce>,
+    <https://w3id.org/um/ken4256/ingredient/black_pepper>, <https://w3id.org/um/ken4256/ingredient/boneless_skinless_chicken_breasts>,
+    <https://w3id.org/um/ken4256/ingredient/crimini_mushrooms>, <https://w3id.org/um/ken4256/ingredient/dried_chile>,
+    <https://w3id.org/um/ken4256/ingredient/fresh_lime_juice>, <https://w3id.org/um/ken4256/ingredient/ginger_root>,
+    <https://w3id.org/um/ken4256/ingredient/minced_garlic>, <https://w3id.org/um/ken4256/ingredient/peanut_oil>,
+    <https://w3id.org/um/ken4256/ingredient/shallots>, <https://w3id.org/um/ken4256/ingredient/sliced_green_onions>,
+    <https://w3id.org/um/ken4256/ingredient/soy_sauce>, <https://w3id.org/um/ken4256/ingredient/splenda>,
+    <https://w3id.org/um/ken4256/ingredient/stevia>, <https://w3id.org/um/ken4256/ingredient/sugar>;
+  <http://purl.org/ontology/fo/rating> 5;
+  rdfs:label "Mark Bittman's Ginger Chicken" .
+
+<https://w3id.org/um/ken4256/recipe/Moroccan-Kefta-Kebab-2215753> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Moroccan-Kefta-Kebab-2215753";
+  <http://purl.org/ontology/fo/cookingTime> 3900;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Moroccan>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/beef>,
+    <https://w3id.org/um/ken4256/ingredient/cayenne_pepper>, <https://w3id.org/um/ken4256/ingredient/cinnamon>,
+    <https://w3id.org/um/ken4256/ingredient/cumin>, <https://w3id.org/um/ken4256/ingredient/fresh_coriander>,
+    <https://w3id.org/um/ken4256/ingredient/fresh_parsley>, <https://w3id.org/um/ken4256/ingredient/ground_beef>,
+    <https://w3id.org/um/ken4256/ingredient/mint_leaves>, <https://w3id.org/um/ken4256/ingredient/onions>,
+    <https://w3id.org/um/ken4256/ingredient/paprika>, <https://w3id.org/um/ken4256/ingredient/pepper>,
+    <https://w3id.org/um/ken4256/ingredient/salt>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Moroccan Kefta Kebab";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 5.0E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Pork-Schnitzel-1832873> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Pork-Schnitzel-1832873";
+  <http://purl.org/ontology/fo/cookingTime> -30;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/German>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/large_eggs>,
+    <https://w3id.org/um/ken4256/ingredient/lemon_wedges>, <https://w3id.org/um/ken4256/ingredient/panko_breadcrumbs>,
+    <https://w3id.org/um/ken4256/ingredient/pepper>, <https://w3id.org/um/ken4256/ingredient/pork_tenderloin>,
+    <https://w3id.org/um/ken4256/ingredient/salt>, <https://w3id.org/um/ken4256/ingredient/vegetable_oil>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Pork Schnitzel" .
+
+<https://w3id.org/um/ken4256/recipe/Portuguese-fish-stew-306395> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Portuguese-fish-stew-306395";
+  <http://purl.org/ontology/fo/cookingTime> 3600;
+  <http://purl.org/ontology/fo/course> "Main Dishes", "Soups";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Portuguese>,
+    <https://w3id.org/um/ken4256/cuisine/Spanish>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/chopped_cilantro>,
+    <https://w3id.org/um/ken4256/ingredient/chorizo_sausage>, <https://w3id.org/um/ken4256/ingredient/extra-virgin_olive_oil>,
+    <https://w3id.org/um/ken4256/ingredient/fish_fillets>, <https://w3id.org/um/ken4256/ingredient/fish_stock>,
+    <https://w3id.org/um/ken4256/ingredient/new_potatoes>, <https://w3id.org/um/ken4256/ingredient/plum_tomatoes>,
+    <https://w3id.org/um/ken4256/ingredient/savoy_cabbage>, <https://w3id.org/um/ken4256/ingredient/white_wine>;
+  <http://purl.org/ontology/fo/rating> 5;
+  rdfs:label "Portuguese Fish Stew";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 5.0E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Revolutionary-Mac-_-Cheese-1048867> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Revolutionary-Mac-_-Cheese-1048867";
+  <http://purl.org/ontology/fo/cookingTime> 2700;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/American>,
+    <https://w3id.org/um/ken4256/cuisine/Italian>, <https://w3id.org/um/ken4256/cuisine/Kid-Friendly>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/dijon_mustard>,
+    <https://w3id.org/um/ken4256/ingredient/dried_pasta>, <https://w3id.org/um/ken4256/ingredient/milk>,
+    <https://w3id.org/um/ken4256/ingredient/salt>, <https://w3id.org/um/ken4256/ingredient/shredded_cheddar_cheese>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Revolutionary Mac & Cheese";
+  <https://w3id.org/um/ken4256/ontology/spiciness> 1.6666666666666666E-1 .
+
+<https://w3id.org/um/ken4256/recipe/Sake-and-Ginger-Soba-Noodle-Salmon-Stir-Fry_-2197682>
+  a <http://purl.org/ontology/fo/Recipe>;
+  <https://purl.org/dc/elements/1.1/identifier> "Sake-and-Ginger-Soba-Noodle-Salmon-Stir-Fry_-2197682";
+  <http://purl.org/ontology/fo/cookingTime> 1800;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/Asian>,
+    <https://w3id.org/um/ken4256/cuisine/Japanese>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/broccolini>,
+    <https://w3id.org/um/ken4256/ingredient/chili_paste>, <https://w3id.org/um/ken4256/ingredient/fresh_ginger>,
+    <https://w3id.org/um/ken4256/ingredient/frozen_edamame_beans>, <https://w3id.org/um/ken4256/ingredient/garlic>,
+    <https://w3id.org/um/ken4256/ingredient/green_onions>, <https://w3id.org/um/ken4256/ingredient/low_sodium_soy_sauce>,
+    <https://w3id.org/um/ken4256/ingredient/roasted_cashews>, <https://w3id.org/um/ken4256/ingredient/sake>,
+    <https://w3id.org/um/ken4256/ingredient/salmon>, <https://w3id.org/um/ken4256/ingredient/sesame_oil>,
+    <https://w3id.org/um/ken4256/ingredient/soba_noodles>, <https://w3id.org/um/ken4256/ingredient/toasted_sesame_seeds>;
+  <http://purl.org/ontology/fo/rating> 4;
+  rdfs:label "Sake and Ginger Soba Noodle Salmon Stir Fry." .
+
+<https://w3id.org/um/ken4256/recipe/Steak-au-Poivre-2059778> a <http://purl.org/ontology/fo/Recipe>;
+  <http://purl.org/dc/elements/1.1/identifier> "Steak-au-Poivre-2059778";
+  <http://purl.org/ontology/fo/cookingTime> 3000;
+  <http://purl.org/ontology/fo/course> "Main Dishes";
+  <http://purl.org/ontology/fo/cuisine> <https://w3id.org/um/ken4256/cuisine/French>;
+  <http://purl.org/ontology/fo/ingredients> <https://w3id.org/um/ken4256/ingredient/beef_tenderloin_steaks>,
+    <https://w3id.org/um/ken4256/ingredient/butter>, <https://w3id.org/um/ken4256/ingredient/coarse_salt>,
+    <https://w3id.org/um/ken4256/ingredient/cognac>, <https://w3id.org/um/ken4256/ingredient/heavy_cream>,
+    <https://w3id.org/um/ken4256/ingredient/olive_oil>, <https://w3id.org/um/ken4256/ingredient/whole_peppercorn>;
+  <http://purl.org/ontology/fo/rating> 9000;
+  rdfs:label "Steak au Poivre" .
