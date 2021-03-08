@@ -1,0 +1,39 @@
+@prefix  : <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix  schema: <http://schema.org/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1> .
+
+:carol  rdf:type schema:Person ;
+    schema:gender  schema:Female ;
+    schema:mbox <mailto:carol@um.nl> ;
+    schema:name    "Carol" ;
+    :isEnrolledIn :BMKG .
+
+
+:alice  rdf:type schema:Person ;
+    schema:gender  schema:Female ;
+    schema:mbox <mailto:alice@um.nl> ;
+    :isEnrolledIn :BMKG ;
+    schema:knows   :bob ;
+    schema:name    "Alice" .
+
+
+:bob   rdf:type schema:Person ;
+    schema:birthDate   "1980-03-10"^^xsd:date ;
+    schema:mbox <mailto:bob@um.nl> ;
+    :isEnrolledIn :BMKG ;
+    schema:gender      :NonBinary ;
+    schema:name        "Bob" .
+
+:Kody rdf:type schema:Person ;
+    schema:name        "Kody Moodley" ;
+    schema:gender      schema:Male ;
+    :teaches :BMKG .
+
+:UM rdf:type :University ;
+    schema:name        "Maastricht University" .
+
+:BMKG rdf:type :Course ;
+    schema:name        "Building and Mining Knowledge Graphs" ;
+    :university :UM .
