@@ -1,0 +1,48 @@
+prefixes:
+  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+  ldp: "http://www.w3.org/ns/ldp#" 
+  schema: "https://schema.org/"
+  foodinfo: "https://w3id.org/foodinfo/"
+  recipe: "https://w3id.org/recipe-nutrition/"
+  ingredient: "https://w3id.org/recipe-nutrition/ingredient/"
+
+sources:
+  food-csv:
+    access: datasets/food.csv
+    referenceFormulation: csv
+
+mappings:
+
+  menu-item:
+    sources: [food-csv]
+    s: ingredient:$(Nutrient Data Bank Number)
+    po:
+      - [a, schema:MenuItem]
+      - [rdfs:label, $(Name), xsd:string]
+      - [schema:nutrition, ingredient:$(Nutrient Data Bank Number)/nutrition~iri]
+
+  food:
+    sources: [food-csv]
+    s: ingredient:$(Nutrient Data Bank Number)/nutrition
+    po:
+      - [a,schema:NutritionInformation]
+      - [rdfs:label, "Nutrition information for $(Name)" , xsd:string]
+      - [schema:cholesterolContent, $(Data.Cholesterol), xsd:integer]
+      - [schema:carbohydrateContent, $(Data.Carbohydrate), xsd:float]
+      - [schema:fiberContent, $(Data.Fiber), xsd:float]
+      - [schema:proteinContent, $(Data.Protein), xsd:float]
+      - [schema:sugarContent, $(Data.Sugar Total), xsd:float]
+      - [schema:saturatedFatContent, $(Data.Fat.Saturated Fat), xsd:float]
+      - p: schema:additionalProperty
+        o: ingredient:$(Nutrient Data Bank Number)/vitaminC~iri
+      
+  vitaminC:
+    sources: [food-csv]
+    s: ingredient:$(Nutrient Data Bank Number)/vitaminC
+    po:
+      - [a,schema:PropertyValue]
+      - [rdfs:label, "Vitamin C content for $(Name)" , xsd:string]
+      - [schema:value, $(Data.Vitamins.Vitamin C), xsd:float]
+      - [schema:unitText, "in grams", xsd:float]

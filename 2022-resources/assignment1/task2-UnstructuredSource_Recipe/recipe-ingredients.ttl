@@ -1,0 +1,230 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix schema: <https://schema.org/> .
+@prefix recipe: <https://w3id.org/recipe-nutrition/> .
+
+
+recipe:dijon-salmon-green-bean-pilaf a schema:Recipe ;
+	rdfs:label "Dijon Salmon with Green Bean Pilaf" ;
+	schema:suitableForDiet "General" ;
+	schema:recipeIngredient recipe:salmon, recipe:olive-oil, recipe:garlic,
+		recipe:salt, recipe:pepper, recipe:mayonnaise, recipe:mustard, 
+		recipe:green-beans, recipe:lemon, recipe:pine-nuts, 
+		recipe:parsley, recipe:rice  .
+
+
+recipe:salmon a schema:MenuItem ;
+	rdfs:label "Salmon" .
+
+recipe:olive-oil a schema:MenuItem ;
+	rdfs:label "Olive oil" .
+
+recipe:garlic a schema:MenuItem ;
+	rdfs:label "Garlic" .
+
+recipe:salt a schema:MenuItem ;
+	rdfs:label "Salt" .
+
+recipe:pepper a schema:MenuItem ;
+	rdfs:label "Pepper" .
+
+recipe:mayonnaise a schema:MenuItem ;
+	rdfs:label "mayonnaise" .
+
+recipe:mustard a schema:MenuItem ;
+	rdfs:label "mustard" .
+
+recipe:green-beans a schema:MenuItem ;
+	rdfs:label "green beans" .
+
+recipe:pine-nuts a schema:MenuItem ;
+	rdfs:label "pine nuts" .
+
+recipe:parsley a schema:MenuItem ;
+	rdfs:label "parsley" .
+
+recipe:rice a schema:MenuItem ;
+	rdfs:label "rice" .
+
+
+
+recipe:roasted-gnocchi-brussels-sprouts a schema:Recipe ;
+	rdfs:label "Roasted Gnocchi & Brussels Sprouts with Meyer Lemon Vinaigrette" ;
+	schema:suitableForDiet "Vegan" ;
+	schema:recipeIngredient recipe:lemon, recipe:brussels-sprouts, recipe:gnocchi, 
+		recipe:shallots, recipe:olive-oil, recipe:pepper, recipe:salt,
+		recipe:sun-dried-tomatoes .
+
+recipe:lemon a schema:MenuItem ;
+	rdfs:label "Lemon" .
+
+recipe:brussels-sprouts a schema:MenuItem ;
+	rdfs:label "brussels sprouts" .
+
+recipe:gnocchi a schema:MenuItem ;
+	rdfs:label "gnocchi" .
+
+recipe:shallots a schema:MenuItem ;
+	rdfs:label "shallots" .
+
+recipe:sun-dried-tomatoes a schema:MenuItem ;
+	rdfs:label "sun-dried tomatoes" .
+
+
+
+recipe:caprese-stuffed-portobello-mushrooms a schema:Recipe ;
+	rdfs:label "Caprese Stuffed Portobello Mushrooms" ;
+	schema:suitableForDiet "Vegetarian" ;
+	schema:recipeIngredient recipe:portobello-mushrooms, recipe:olive-oil, recipe:salt, 
+		recipe:pepper, recipe:garlic, recipe:tomatoes, recipe:mozzarella, 
+		recipe:basil, recipe:vinegar .
+
+recipe:portobello-mushrooms a schema:MenuItem ;
+	rdfs:label "Portobello Mushrooms" .
+
+recipe:tomatoes a schema:MenuItem ;
+	rdfs:label "tomatoes" .
+
+recipe:mozzarella a schema:MenuItem ;
+	rdfs:label "mozzarella" .
+
+recipe:basil a schema:MenuItem ;
+	rdfs:label "basil" .
+
+recipe:vinegar a schema:MenuItem ;
+	rdfs:label "vinegar" .
+
+recipe:greek-chicken-roasted-vegetables-lemon a schema:Recipe ;
+	rdfs:label "Greek Chicken with Roasted Spring Vegetables & Lemon Vinaigrette" ;
+	schema:suitableForDiet "General" ;
+	schema:recipeIngredient recipe:lemon, recipe:olive-oil, recipe:feta-cheese, 
+		recipe:honey, recipe:olive-oil, recipe:chicken, recipe:mayonnaise,
+		recipe:garlic, recipe:bread-crumbs, recipe:parmesan-cheese, recipe:salt, recipe:pepper,
+		recipe:asparagus, recipe:mushroom,recipe:tomatoes, recipe:olive-oil .
+
+recipe:feta-cheese a schema:MenuItem ;
+	rdfs:label "Feta cheese" .
+
+recipe:honey a schema:MenuItem ;
+	rdfs:label "honey" .
+
+recipe:bread-crumbs a schema:MenuItem ;
+	rdfs:label "bread crumbs" .
+
+recipe:parmesan-cheese a schema:MenuItem ;
+	rdfs:label "Parmesan cheese" .
+
+recipe:asparagus a schema:MenuItem ;
+	rdfs:label "asparagus" .
+
+recipe:mushroom a schema:MenuItem ;
+	rdfs:label "mushroom" .
+
+recipe:white-bean-veggie-salad a schema:Recipe ;
+	rdfs:label "White Bean & Veggie Salad" ;
+	schema:suitableForDiet "Vegan" ;
+	schema:recipeIngredient recipe:tomatoes, recipe:cucumber, recipe:white-bean, 
+		recipe:avocado, recipe:vinegar, recipe:olive-oil, recipe:salt,
+		recipe:pepper.
+
+recipe:cucumber a schema:MenuItem ;
+	rdfs:label "cucumber" .
+
+recipe:white-bean a schema:MenuItem ;
+	rdfs:label "white bean" .
+
+recipe:avocado a schema:MenuItem ;
+	rdfs:label "avocado" .
+
+recipe:greek-roasted-fish-vegetables a schema:Recipe ;
+	rdfs:label "Greek Roasted Fish with Vegetables" ;
+	schema:suitableForDiet "General" ;
+	schema:recipeIngredient recipe:potato, recipe:olive-oil, recipe:garlic, 
+		recipe:salt, recipe:pepper, recipe:salmon, recipe:sweet-pepper,
+		recipe:tomatoes, recipe:parsley, recipe:olive, recipe:oregano, recipe:lemon.
+
+recipe:potato a schema:MenuItem ;
+	rdfs:label "potato" .
+
+recipe:sweet-pepper a schema:MenuItem ;
+	rdfs:label "sweet pepper" .
+
+recipe:oregano a schema:MenuItem ;
+	rdfs:label "oregano" .
+
+recipe:mediterranean-cabbage-soup a schema:Recipe ;
+	rdfs:label "Mediterranean Cabbage Soup" ;
+	schema:suitableForDiet "Vegan" ;
+	schema:recipeIngredient recipe:olive-oil, recipe:carrot, recipe:onion, 
+		recipe:garlic, recipe:coriander, recipe:salt, recipe:vegetable-broth,
+		recipe:tomatoes, recipe:cabbage, recipe:cannellini-bean, recipe:sugar, recipe:oregano,
+		recipe:lemon.
+
+recipe:carrot a schema:MenuItem ;
+	rdfs:label "carrot" .
+
+recipe:onion a schema:MenuItem ;
+	rdfs:label "onion" .
+
+recipe:coriander a schema:MenuItem ;
+	rdfs:label "coriander" .
+
+recipe:vegetable-broth a schema:MenuItem ;
+	rdfs:label "vegetable broth" .
+
+recipe:cannellini-bean a schema:MenuItem ;
+	rdfs:label "cannellini bean" .
+
+recipe:sugar a schema:MenuItem ;
+	rdfs:label "sugar" .
+
+recipe:salmon-roasted-red-pepper-quinoa-salad a schema:Recipe ;
+	rdfs:label "Salmon with Roasted Red Pepper Quinoa Salad" ;
+	schema:suitableForDiet "General" ;
+	schema:recipeIngredient recipe:olive-oil, recipe:salmon, recipe:salt, 
+		recipe:pepper, recipe:vinegar, recipe:garlic, recipe:quinoa,
+		recipe:red-pepper, recipe:pistachio.
+
+recipe:quinoa a schema:MenuItem ;
+	rdfs:label "quinoa" .
+
+recipe:red-pepper a schema:MenuItem ;
+	rdfs:label "red pepper" .
+
+recipe:pistachio a schema:MenuItem ;
+	rdfs:label "pistachio" .
+
+recipe:eggplant-pomodoro-pasta a schema:Recipe ;
+	rdfs:label "Eggplant Pomodoro Pasta" ;
+	schema:suitableForDiet "Vegetarian" ;
+	schema:recipeIngredient recipe:olive-oil, recipe:eggplant, recipe:garlic, 
+		recipe:tomatoes, recipe:olive, recipe:vinegar, recipe:salt,
+		recipe:pepper, recipe:red-pepper, recipe:pasta, recipe:basil.
+
+recipe:pasta a schema:MenuItem ;
+	rdfs:label "pasta" .
+
+recipe:cauliflower-steaks-parmesan-rice-romesco a schema:Recipe ;
+	rdfs:label "Cauliflower Steaks with Parmesan Cauliflower Rice & Romesco" ;
+	schema:suitableForDiet "Vegetarian" ;
+	schema:recipeIngredient recipe:cauliflower, recipe:olive-oil, recipe:salt, 
+		recipe:pepper, recipe:almond, recipe:hazelnut, recipe:garlic,
+		recipe:vinegar, recipe:red-pepper, recipe:tomatoes, recipe:paprika, recipe:parsley,
+		recipe:parmesan-cheese.
+
+recipe:cauliflower a schema:MenuItem ;
+	rdfs:label "cauliflower" .
+
+recipe:almond a schema:MenuItem ;
+	rdfs:label "almond" .
+
+recipe:hazelnut a schema:MenuItem ;
+	rdfs:label "hazelnut" .
+
+recipe:paprika a schema:MenuItem ;
+	rdfs:label "paprika" .
+
+
+
+

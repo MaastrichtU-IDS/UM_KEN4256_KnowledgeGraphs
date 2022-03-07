@@ -1,0 +1,155 @@
+@prefix : <https://schema.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@base <https://schema.org/> .
+
+<https://schema.org/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://schema.org/additionalProperty
+schema:additionalProperty rdf:type owl:ObjectProperty ;
+                          rdfs:domain schema:NutritionInformation ;
+                          rdfs:range schema:PropertyValue ;
+                          rdfs:isDefinedBy <https://schema.org/> ;
+                          rdfs:label "additional property" .
+
+
+###  https://schema.org/nutrition
+schema:nutrition rdf:type owl:ObjectProperty ;
+                 rdfs:domain schema:MenuItem ;
+                 rdfs:range schema:NutritionInformation ;
+                 rdfs:isDefinedBy <https://schema.org/> ;
+                 rdfs:label "nutrition" .
+
+
+###  https://schema.org/recipeIngredient
+schema:recipeIngredient rdf:type owl:ObjectProperty ;
+                        rdfs:domain schema:Recipe ;
+                        rdfs:range schema:MenuItem ;
+                        rdfs:isDefinedBy <https://schema.org/> ;
+                        rdfs:label "recipe Ingredient" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:DatatypeProperty ;
+           rdfs:domain schema:PropertyValue .
+
+
+###  https://schema.org/carbohydrateContent
+schema:carbohydrateContent rdf:type owl:DatatypeProperty ;
+                           rdfs:domain schema:NutritionInformation ;
+                           rdfs:isDefinedBy <https://schema.org/> ;
+                           rdfs:label "carbohydrate Content" .
+
+
+###  https://schema.org/cholesterolContent
+schema:cholesterolContent rdf:type owl:DatatypeProperty ;
+                          rdfs:domain schema:NutritionInformation ;
+                          rdfs:isDefinedBy <https://schema.org/> ;
+                          rdfs:label "cholesterol Content" .
+
+
+###  https://schema.org/fiberContent
+schema:fiberContent rdf:type owl:DatatypeProperty ;
+                    rdfs:domain schema:NutritionInformation ;
+                    rdfs:isDefinedBy <https://schema.org/> ;
+                    rdfs:label "fiber Content" .
+
+
+###  https://schema.org/proteinContent
+schema:proteinContent rdf:type owl:DatatypeProperty ;
+                      rdfs:domain schema:NutritionInformation ;
+                      rdfs:isDefinedBy <https://schema.org/> ;
+                      rdfs:label "protein Content" .
+
+
+###  https://schema.org/saturatedFatContent
+schema:saturatedFatContent rdf:type owl:DatatypeProperty ;
+                           rdfs:domain schema:NutritionInformation ;
+                           rdfs:isDefinedBy <https://schema.org/> ;
+                           rdfs:label "saturated Fat Content" .
+
+
+###  https://schema.org/sugarContent
+schema:sugarContent rdf:type owl:DatatypeProperty ;
+                    rdfs:domain schema:NutritionInformation ;
+                    rdfs:isDefinedBy <https://schema.org/> ;
+                    rdfs:label "sugar Content" .
+
+
+###  https://schema.org/suitablefordiet
+schema:suitablefordiet rdf:type owl:DatatypeProperty ;
+                       rdfs:domain schema:Recipe ;
+                       rdfs:isDefinedBy <https://schema.org/> ;
+                       rdfs:label "suitableForDiet" .
+
+
+###  https://schema.org/unittext
+schema:unittext rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:PropertyValue ;
+                rdfs:isDefinedBy <https://schema.org/> ;
+                rdfs:label "unitText" .
+
+
+###  https://schema.org/value
+schema:value rdf:type owl:DatatypeProperty ;
+             rdfs:domain schema:PropertyValue ;
+             rdfs:isDefinedBy <https://schema.org/> ;
+             rdfs:label "value" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://schema.org/MenuItem
+schema:MenuItem rdf:type owl:Class ;
+                rdfs:isDefinedBy <https://schema.org/> ;
+                rdfs:label "Menu Item" .
+
+
+###  https://schema.org/NutritionInformation
+schema:NutritionInformation rdf:type owl:Class ;
+                            rdfs:isDefinedBy <https://schema.org/> ;
+                            rdfs:label "Nutrition Information" .
+
+
+###  https://schema.org/PropertyValue
+schema:PropertyValue rdf:type owl:Class ;
+                     rdfs:isDefinedBy <https://schema.org/> ;
+                     rdfs:label "Property Value" .
+
+
+###  https://schema.org/Recipe
+schema:Recipe rdf:type owl:Class ;
+              rdfs:isDefinedBy <https://schema.org/> ;
+              rdfs:label "Recipe" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+rdfs:label rdfs:isDefinedBy <https://schema.org/> ;
+           rdfs:label "label" .
+
+
+<https://schema.org/> rdfs:comment "" ;
+                      rdfs:label "Recipe nutrition" .
+
+
+###  Generated by the OWL API (version 5.1.17) https://github.com/owlcs/owlapi/

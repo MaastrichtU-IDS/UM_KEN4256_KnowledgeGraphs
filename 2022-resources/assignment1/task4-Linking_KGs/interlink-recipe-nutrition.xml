@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES>
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/1999/02/22-rdf-syntax-ns#</NAMESPACE>
+        <LABEL>rdf</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+        <LABEL>rdfs</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>https://schema.org/</NAMESPACE>
+        <LABEL>schema</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+        <LABEL>owl</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/2001/XMLSchema#</NAMESPACE>
+        <LABEL>xsd</LABEL>
+    </PREFIX>
+
+    <SOURCE>
+        <ID>recipe</ID>
+        <ENDPOINT>task2-UnstructuredSource_Recipe/recipe-ingredients.ttl</ENDPOINT>
+        <VAR>?x</VAR>
+        <PAGESIZE>5000</PAGESIZE>
+        <RESTRICTION>?x rdf:type schema:MenuItem</RESTRICTION>
+        <PROPERTY>rdfs:label AS lowercase</PROPERTY>
+        <TYPE>TTL</TYPE>
+    </SOURCE>    
+    <TARGET>
+        <ID>food</ID>
+        <ENDPOINT>task3-StructuredSource_Food/nutrition-info.ttl</ENDPOINT>
+        <VAR>?y</VAR>
+        <PAGESIZE>5000</PAGESIZE>
+        <RESTRICTION>?y rdf:type schema:MenuItem</RESTRICTION>
+        <PROPERTY>rdfs:label AS lowercase</PROPERTY>
+        <TYPE>TTL</TYPE>
+    </TARGET>
+
+    <METRIC>cosine(x.rdfs:label,y.rdfs:label)</METRIC>
+    <!--   <METRIC>levenshtein(x.rdfs:label, y.rdfs:label)</METRIC> -->
+
+    <ACCEPTANCE>
+        <THRESHOLD>0.85</THRESHOLD>
+        <FILE>task4-Linking_KGs/vincent-accepted.nt</FILE>
+        <RELATION>owl:sameAs</RELATION>
+    </ACCEPTANCE>
+    <REVIEW>
+        <THRESHOLD>0.70</THRESHOLD>
+        <FILE>task4-Linking_KGs/vincent-reviewme.nt</FILE>
+        <RELATION>owl:sameAs</RELATION>
+    </REVIEW>
+    <OUTPUT>NT</OUTPUT>
+</LIMES>

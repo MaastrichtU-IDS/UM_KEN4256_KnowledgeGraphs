@@ -1,0 +1,238 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix v: <http://rdf.data-vocabulary.org/#> .
+@prefix schema: <https://schema.org/> .
+@prefix foodinfo: <https://w3id.org/foodinfo/> .
+@prefix recipe: <https://w3id.org/recipe-nutrition/> .
+@prefix ingredient: <https://w3id.org/recipe-nutrition/ingredient/> .
+
+map:map_food_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "food" ;
+	rr:predicateObjectMap map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011 ;
+	rr:subjectMap map:s_001 .
+
+map:map_menu-item_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "menu-item" ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002 ;
+	rr:subjectMap map:s_000 .
+
+map:map_vitaminC_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "vitaminC" ;
+	rr:predicateObjectMap map:pom_012, map:pom_013, map:pom_014, map:pom_015 ;
+	rr:subjectMap map:s_002 .
+
+map:om_000 rdf:type rr:ObjectMap ;
+	rr:constant "https://schema.org/MenuItem" ;
+	rr:termType rr:IRI .
+
+map:om_001 rml:reference "Name" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_002 rdf:type rr:ObjectMap ;
+	rr:template "https://w3id.org/recipe-nutrition/ingredient/{Nutrient Data Bank Number}/nutrition" ;
+	rr:termType rr:IRI .
+
+map:om_003 rdf:type rr:ObjectMap ;
+	rr:constant "https://schema.org/NutritionInformation" ;
+	rr:termType rr:IRI .
+
+map:om_004 rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:template "Nutrition information for {Name}" ;
+	rr:termType rr:Literal .
+
+map:om_005 rml:reference "Data.Cholesterol" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:integer ;
+	rr:termType rr:Literal .
+
+map:om_006 rml:reference "Data.Carbohydrate" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_007 rml:reference "Data.Fiber" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_008 rml:reference "Data.Protein" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_009 rml:reference "Data.Sugar Total" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_010 rml:reference "Data.Fat.Saturated Fat" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_011 rdf:type rr:ObjectMap ;
+	rr:template "https://w3id.org/recipe-nutrition/ingredient/{Nutrient Data Bank Number}/vitaminC" ;
+	rr:termType rr:IRI .
+
+map:om_012 rdf:type rr:ObjectMap ;
+	rr:constant "https://schema.org/PropertyValue" ;
+	rr:termType rr:IRI .
+
+map:om_013 rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:template "Vitamin C content for {Name}" ;
+	rr:termType rr:Literal .
+
+map:om_014 rml:reference "Data.Vitamins.Vitamin C" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_015 rdf:type rr:ObjectMap ;
+	rr:constant "in grams" ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+map:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant schema:nutrition .
+
+map:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+map:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant schema:cholesterolContent .
+
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant schema:carbohydrateContent .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant schema:fiberContent .
+
+map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant schema:proteinContent .
+
+map:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant schema:sugarContent .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant schema:saturatedFatContent .
+
+map:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant schema:additionalProperty .
+
+map:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+map:pm_014 rdf:type rr:PredicateMap ;
+	rr:constant schema:value .
+
+map:pm_015 rdf:type rr:PredicateMap ;
+	rr:constant schema:unitText .
+
+map:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_000 ;
+	rr:predicateMap map:pm_000 .
+
+map:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_001 ;
+	rr:predicateMap map:pm_001 .
+
+map:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_002 ;
+	rr:predicateMap map:pm_002 .
+
+map:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_003 ;
+	rr:predicateMap map:pm_003 .
+
+map:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_004 ;
+	rr:predicateMap map:pm_004 .
+
+map:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_005 ;
+	rr:predicateMap map:pm_005 .
+
+map:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_006 ;
+	rr:predicateMap map:pm_006 .
+
+map:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_007 .
+
+map:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_008 ;
+	rr:predicateMap map:pm_008 .
+
+map:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_009 ;
+	rr:predicateMap map:pm_009 .
+
+map:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_010 ;
+	rr:predicateMap map:pm_010 .
+
+map:pom_011 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_011 ;
+	rr:predicateMap map:pm_011 .
+
+map:pom_012 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_012 ;
+	rr:predicateMap map:pm_012 .
+
+map:pom_013 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_013 ;
+	rr:predicateMap map:pm_013 .
+
+map:pom_014 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_014 ;
+	rr:predicateMap map:pm_014 .
+
+map:pom_015 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_015 ;
+	rr:predicateMap map:pm_015 .
+
+map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_food_000, map:map_menu-item_000, map:map_vitaminC_000 ;
+	rdf:type <http://rdfs.org/ns/void#Dataset> .
+
+map:s_000 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/recipe-nutrition/ingredient/{Nutrient Data Bank Number}" .
+
+map:s_001 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/recipe-nutrition/ingredient/{Nutrient Data Bank Number}/nutrition" .
+
+map:s_002 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/recipe-nutrition/ingredient/{Nutrient Data Bank Number}/vitaminC" .
+
+map:source_000 rml:referenceFormulation ql:CSV ;
+	rml:source "datasets/food.csv" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "food-csv" .
+
