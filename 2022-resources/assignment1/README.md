@@ -180,22 +180,19 @@ It could also be done more precisely for the 5 most used ingredients per diet:
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
-SELECT ?diet ?ingredientName (count(?ingredientName) AS ?countPerDiet) 
+SELECT ?diet ?ingredient (count(?ingredient) AS ?countPerDiet) 
 WHERE { 
-    ?recipe rdf:type schema:Recipe ;
-            rdfs:label ?recipeName ;
-            schema:suitableForDiet ?diet;
-            schema:recipeIngredient ?ingredient .
-    ?ingredient rdfs:label ?ingredientName .
+    ?recipe a schema:Recipe ;
+		schema:suitableForDiet ?diet ;
+  		schema:recipeIngredient ?ingredient .
     {
         SELECT ?ingredient (count(?ingredient) AS ?ingredientCount)
         WHERE {
-                ?recipe rdf:type schema:Recipe ;
-                rdfs:label ?recipeName ;
-                schema:recipeIngredient ?ingredient .
+            ?recipe a schema:Recipe ;
+				schema:recipeIngredient ?ingredient .
         } GROUP BY ?ingredient ORDER BY DESC(?ingredientCount) LIMIT 5
     }
-} GROUP BY ?ingredientName ?diet ORDER BY ?diet DESC(?countPerDiet)
+} GROUP BY ?ingredient ?diet ORDER BY ?diet DESC(?countPerDiet)
 ```
 
 
