@@ -1,0 +1,114 @@
+selected rules for test group1
+222	2	0.009009009009009009	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q3242950>,Y) <= <http://www.wikidata.org/prop/direct/P129>(A,Y)
+5	2	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q3242950>,Y) <= <http://www.wikidata.org/prop/direct/P129>(<http://www.wikidata.org/entity/Q21172390>,Y)
+535	2	0.003738317757009346	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q3242950>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(A,Y)
+574	2	0.003484320557491289	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q3242950>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,A)
+17	2	0.11764705882352941	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q3242950>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q7251487>)
+8	2	0.25	<http://www.wikidata.org/prop/direct/P2176>(X,<http://www.wikidata.org/entity/Q408471>) <= <http://www.wikidata.org/prop/direct/P2176>(X,<http://www.wikidata.org/entity/Q898407>)
+6	3	0.5	<http://www.wikidata.org/prop/direct/P2176>(X,<http://www.wikidata.org/entity/Q408471>) <= <http://www.wikidata.org/prop/direct/P2176>(X,<http://www.wikidata.org/entity/Q408265>)
+5	3	0.6	<http://www.wikidata.org/prop/direct/P2176>(X,<http://www.wikidata.org/entity/Q408471>) <= <http://www.wikidata.org/prop/direct/P2176>(X,<http://www.wikidata.org/entity/Q421930>)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------\
+selected rules for test group2
+
+1375	2	0.0014545454545454545	<http://www.wikidata.org/prop/direct/P2293>(<http://www.wikidata.org/entity/Q1752571>,Y) <= <http://www.wikidata.org/prop/direct/P2293>(A,Y)
+3	2	0.6666666666666666	<http://www.wikidata.org/prop/direct/P2293>(<http://www.wikidata.org/entity/Q1752571>,Y) <=
+ <http://www.wikidata.org/prop/direct/P2293>(<http://www.wikidata.org/entity/Q1368780>,Y)
+ 
+ 
+574	2	0.003484320557491289	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q1752571>,Y) <=
+ <http://www.wikidata.org/prop/direct/P2868>(Y,A)
+
+535	2	0.003738317757009346	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q1752571>,Y) <=
+ <http://www.wikidata.org/prop/direct/P2176>(A,Y)
+
+7	3	0.42857142857142855	<http://www.wikidata.org/prop/direct/P2176>(X,<http://www.wikidata.org/entity/Q20078502>) <= <http://www.wikidata.org/prop/direct/P2293>(X,<http://www.wikidata.org/entity/Q14865830>)
+9	5	0.5555555555555556	<http://www.wikidata.org/prop/direct/P2176>(X,<http://www.wikidata.org/entity/Q20078502>) <= <http://www.wikidata.org/prop/direct/P2293>(X,<http://www.wikidata.org/entity/Q14865111>)
+3	2	0.6666666666666666	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q264118>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q729735>,Y)
+
+------------------------------------------------------------------------------------------------------------------------------------------
+selected rules for test group3
+12	3	0.25	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q18555313>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q101991>,Y)
+6	3	0.5	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q18555313>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q18555302>,Y)
+6	4	0.6666666666666666	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q18555313>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q18555307>,Y)
+5	2	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q18555313>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q1477>,Y)
+17	7	0.4117647058823529	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q18555313>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q581996>)
+13	5	0.38461538461538464	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q18555313>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q422549>)
+------------------------------------------------------------------------------------------------------------------------------------------
+selected rules for test group4
+
+574	3	0.005226480836236934	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q189331>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,A)
+22	2	0.09090909090909091	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q189331>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q241549>)
+5	2	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q189331>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q220570>,Y)
+535	4	0.007476635514018692	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q189331>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(A,Y)
+11	2	0.18181818181818182	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q189331>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q815819>,Y)
+11	3	0.2727272727272727	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q189331>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q190805>,Y)
+2	2	1.0	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q189331>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q593958>,Y)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+selected rules for test group5
+
+6	2	0.3333333333333333	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q12152>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q50430373>)
+16	5	0.3125	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q12152>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q816759>)
+13	4	0.3076923076923077	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q12152>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q180762>,Y)
+10	4	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q12152>,Y) <= <http://www.wikidata.org/prop/direct/P129>(<http://www.wikidata.org/entity/Q287958>,Y)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+selected rules for test group6
+4	2	0.5	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q129104>,Y)
+2	2	1.0	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q153861>,Y)
+5	2	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q705906>,Y)
+4	3	0.75	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q938983>,Y)
+2	2	1.0	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q1066061>,Y)
+8	2	0.25	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q153356>,Y)
+6	3	0.5	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q13046587>,Y)
+6	2	0.3333333333333333	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q183134>,Y)
+2	2	1.0	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q922927>,Y)
+6	2	0.3333333333333333	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q2085267>,Y)
+4	2	0.5	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q627625>,Y)
+4	2	0.5	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q727028>,Y)
+5	2	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q273510>,Y)
+4	2	0.5	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q154882>,Y)
+8	2	0.25	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q79928>,Y)
+3	3	1.0	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q1856914>,Y)
+4	3	0.75	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q246084>,Y)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+selected rules for test group8
+3	2	0.6666666666666666	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q7140388>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q5419644>)
+19	2	0.10526315789473684	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q7140388>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q50377192>)
+20	5	0.25	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q7140388>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q576618>)
+5	2	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q7140388>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q414238>)
+6	3	0.5	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q7140388>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q131755>,Y)
+3	2	0.6666666666666666	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q7140388>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q1406803>,Y)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+selected rules for test group7
+21	10	0.47619047619047616	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q2622199>,Y)
+8	3	0.375	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q101896>,Y)
+6	2	0.3333333333333333	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q1900400>,Y)
+8	2	0.25	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q6029216>,Y)
+8	3	0.375	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q3776920>,Y)
+3	2	0.6666666666666666	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q18371582>,Y)
+32	5	0.15625	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q221668>,Y)
+10	2	0.2	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q12192>,Y)
+2	2	1.0	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q520127>,Y)
+7	2	0.2857142857142857	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q83319>,Y)
+3	2	0.6666666666666666	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q3678510>,Y)
+8	2	0.25	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q79928>,Y)
+6	2	0.3333333333333333	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19597369>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q183134>,Y)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+selected rules for test group9
+6	4	0.6666666666666666	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19000661>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q285044>)
+11	6	0.5454545454545454	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19000661>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q50430323>)
+18	9	0.5	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19000661>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q200656>)
+10	4	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19000661>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q288280>)
+16	4	0.25	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19000661>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q816759>)
+13	6	0.46153846153846156	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19000661>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q486485>,Y)
+5	2	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19000661>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q848662>,Y)
+2	2	1.0	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19000661>,Y) <= <http://www.wikidata.org/prop/direct/P129>(<http://www.wikidata.org/entity/Q128861>,Y)
+6	3	0.5	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q19000661>,Y) <= <http://www.wikidata.org/prop/direct/P2868>(Y,<http://www.wikidata.org/entity/Q50430373>)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+selected rules for test group10
+3	2	0.6666666666666666	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q6029216>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q3678510>,Y)
+18	2	0.1111111111111111	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q6029216>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q4227886>,Y)
+5	2	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q6029216>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q705906>,Y)
+5	2	0.4	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q6029216>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q223254>,Y)
+3	2	0.6666666666666666	<http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q6029216>,Y) <= <http://www.wikidata.org/prop/direct/P2176>(<http://www.wikidata.org/entity/Q1435822>,Y)
