@@ -3,7 +3,7 @@
 @prefix  schema: <http://schema.org/> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1> .
-@ prefix dbp: <https://dbpedia.org/page/> .
+@prefix dbp: <https://dbpedia.org/page/> .
 
 :carol  rdf:type dbp:Student ;
     schema:gender  schema:Female ;
