@@ -6,3 +6,4 @@ limes_*.nt
 cache/
 .server-storage
 *statistics.json
+.venv
